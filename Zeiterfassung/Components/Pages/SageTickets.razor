@@ -113,8 +113,8 @@
             </tr>
         </thead>
         <tbody>
-                                @foreach (var ticket in sageTickets)
-                                {
+                @foreach (var ticket in sageTickets)
+                {
                     <tr id="@($"ticket-{ticket.ProjektID}")"
                         data-matchcode="@ticket.Ansprechpartner"
                         data-betreff="@ticket.Betreff"
@@ -131,7 +131,7 @@
                         <td data-label="Status">@ticket.Status</td>
                         <td data-label="Aktion"><a href="/timestamps?ProjektPosID=@ticket.ProjektPosID"><button class="details-btn">Erfasste Zeiten</button></a></td>
                     </tr>
-                                }
+                 }
         </tbody>
     </table>
 
@@ -169,7 +169,6 @@
         BetreffFilter = string.Empty;
         AnsprechpartnerFilter = string.Empty;
 
-        // Navigiert zur unparameterisierten Seite, um die Filterung zu entfernen.
         NavigationManager.NavigateTo("/sagetickets");
     }
 
