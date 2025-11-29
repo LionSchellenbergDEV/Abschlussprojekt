@@ -1,0 +1,263 @@
+﻿/* ---------------------------------------------------------------------- */
+/* layout.css: Dashboard-Struktur, Sidebar und Header (KORRIGIERT) */
+/* ---------------------------------------------------------------------- */
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px; /* Basis-Breite für Desktop */
+    background-color: var(--color-surface);
+    padding: calc(2 * var(--spacing-unit)) 0;
+    border-right: 1px solid var(--color-secondary);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-height: 100vh;
+    transition: transform 0.3s ease-out, width 0.3s ease-out;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 1.5rem;
+}
+
+    .logo img {
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+.main-nav {
+    flex-grow: 1;
+}
+
+    .main-nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .main-nav li {
+        margin-bottom: 0.25rem;
+    }
+    /* Hinzugefügt aus Original */
+    .main-nav a {
+        display: block;
+        padding: 0.8rem 1.5rem;
+        color: var(--color-text);
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.2s, color 0.2s;
+        border-left: 4px solid transparent;
+    }
+
+        .main-nav a:hover {
+            background-color: var(--color-secondary);
+            color: var(--color-text);
+        }
+
+    .main-nav li.active a {
+        background-color: rgba(133, 164, 255, 0.1);
+        color: var(--color-primary-dark);
+        font-weight: 600;
+        border-left-color: var(--color-primary);
+    }
+
+.logout-section {
+    margin-top: auto;
+    padding: 1.5rem 0 1rem 0;
+    border-top: 1px solid var(--color-secondary);
+}
+
+.logout-link {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+    .logout-link:hover {
+        color: var(--color-primary-dark);
+        background-color: var(--color-secondary);
+    }
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 3rem 4rem;
+    /* WICHTIG: Erlaubt dem Hauptinhalt zu scrollen, wenn er zu groß ist */
+    overflow-y: auto;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+    .content-header h1 {
+        font-size: clamp(1.8rem, 2.5vw + 0.5rem, 2.5rem);
+        font-weight: 700;
+        color: var(--color-text);
+    }
+
+/* Bereich, der im Dashboard-Layout eine feste Höhe hat (z.B. die Card) */
+.dashboard-section {
+    height: 70%;
+    min-height: 70%;
+    max-height: 70%;
+}
+
+/* WICHTIG: Hier muss das Scrollen für den abgeschnittenen Card-Inhalt definiert werden */
+.detail-body {
+    height: 50%;
+    min-height: 50%;
+    max-height: 50%;
+    /* Dies behebt das Abschneiden des Inhalts, indem ein Scrollbalken hinzugefügt wird */
+    overflow-y: auto;
+}
+
+
+.sidebar {
+    width: 200px;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+}
+
+.input-form {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-secondary);
+}
+
+    .input-form h3 {
+        color: var(--color-text);
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+.input-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+    .input-grid input {
+        padding: 0.6rem 1rem;
+        border: 1px solid var(--color-secondary);
+        border-radius: var(--border-radius-sm);
+        font-size: 0.9rem;
+        transition: border-color 0.2s;
+    }
+
+        .input-grid input:focus {
+            outline: none;
+            border-color: var(--color-primary-dark);
+        }
+
+#add-entry-btn {
+    width: 100%;
+    display: block;
+}
+
+.modal-actions {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.success-btn {
+    background: var(--color-button-success);
+    color: var(--color-surface);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 2px 5px rgba(133, 164, 255, 0.4);
+}
+#mobile-nav {
+    background: white;
+    padding: 2%;
+
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+#mobile-nav img {
+    width: 25%;
+}
+#mobile-nav ul {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#mobile-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    body {
+        overflow-y: scroll;
+    }
+    .dashboard-container {
+        /* Wichtig: Auf kleinen Bildschirmen wird die Sidebar nicht mehr neben dem Inhalt,
+           sondern (implizit) überlagert oder ganz ausgeblendet (siehe .sidebar) */
+    }
+    header {
+        display: flex;
+        flex-flow: column;
+    }
+    .search-bar {
+        width: 50%;
+        min-width: 50%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    header form {
+        display: flex; 
+        justify-content: center;
+        margin-top: 4%;
+    }
+    /* Sidebar-Anpassung für Mobile: */
+    .sidebar {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+    }
+
+    /* Main Content-Anpassung für Mobile: */
+    .main-content {
+        /* Nutzt 100% der verfügbaren Breite */
+        width: 100%;
+        /* Polsterung reduzieren, um mehr Platz zu schaffen */
+        padding: 2rem 1.5rem;
+    }
+
+    /* Input Grid Anpassung für Mobile: Auf eine Spalte reduzieren */
+    .input-grid {
+        /* Das 3-Spalten-Layout wird auf ein 1-Spalten-Layout reduziert */
+        grid-template-columns: 1fr;
+    }
+}

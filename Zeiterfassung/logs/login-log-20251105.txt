@@ -1,0 +1,173 @@
+15:44:14.860 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:44:15.658 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:44:15.660 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:44:15.672 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:44:15.759 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:44:15.827 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:44:15.831 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:44:16.552 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:44:16.750 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:44:16.895 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/ (/)'
+15:44:16.908 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/ - 200 null text/html; charset=utf-8 364.244ms
+15:44:16.919 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - null null
+15:44:16.922 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:44:16.921 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:44:16.948 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:44:16.951 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:44:16.961 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:44:16.963 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 41.2006ms
+15:44:16.964 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:16.967 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:44:16.970 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:44:16.971 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 20.7126ms
+15:44:17.026 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:44:17.029 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 106.9832ms
+15:44:17.051 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.lkevc0spdh.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-lkevc0spdh.gz'
+15:44:17.052 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:17.054 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - 200 18173 text/css 135.2682ms
+15:44:17.082 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 158.4798ms
+15:44:37.162 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/abmelden - null null
+15:44:37.184 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET /abmelden'
+15:44:37.199 +01:00 [INF] Microsoft.AspNetCore.Http.Result.RedirectResult - Executing RedirectResult, redirecting to /.
+15:44:37.201 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET /abmelden'
+15:44:37.204 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/abmelden - 302 0 null 42.6625ms
+15:44:37.208 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:44:37.220 +01:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+15:44:37.228 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies was challenged.
+15:44:37.235 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/ - 302 0 null 26.0921ms
+15:44:37.241 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - null null
+15:44:37.249 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/login (/login)'
+15:44:37.384 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/login (/login)'
+15:44:37.388 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 146.357ms
+15:44:37.424 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_blazor/initializers - null null
+15:44:37.434 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:37.439 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:37.441 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_blazor/initializers - 200 null application/json; charset=utf-8 17.1243ms
+15:44:37.448 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:44:37.455 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:37.468 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:44:37.474 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 25.8557ms
+15:44:37.478 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=gM0VGZ7-Vbx1ZUSn3ZWVEA - null null
+15:44:37.483 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:33.783 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:55:34.449 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:55:34.451 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:55:34.465 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:55:34.538 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:55:34.551 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:55:34.553 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:55:35.086 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:55:35.273 +01:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+15:55:35.279 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies was challenged.
+15:55:35.286 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/ - 302 0 null 206.2089ms
+15:55:35.291 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - null null
+15:55:35.314 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/login (/login)'
+15:55:35.588 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/login (/login)'
+15:55:35.600 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - null null
+15:55:35.601 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:55:35.607 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:55:35.628 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 336.9065ms
+15:55:35.638 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:55:35.638 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.638 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 37.8467ms
+15:55:35.643 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:55:35.648 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:55:35.649 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:55:35.661 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:55:35.666 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:55:35.670 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 63.545ms
+15:55:35.673 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 11.9503ms
+15:55:35.701 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.lkevc0spdh.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-lkevc0spdh.gz'
+15:55:35.704 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.706 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - 200 18173 text/css 106.105ms
+15:55:35.733 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.0063ms
+15:55:35.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_blazor/initializers - null null
+15:55:35.766 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.772 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.775 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_blazor/initializers - 200 null application/json; charset=utf-8 12.0081ms
+15:55:35.795 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:55:35.801 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.815 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:35.818 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 22.8842ms
+15:55:35.824 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=AUtdN6_UnD6Z5b99Igd3eg - null null
+15:55:35.838 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:40.483 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login-Versuch für Benutzer:  
+15:55:40.511 +01:00 [WRN] Zeiterfassung.Components.Pages.Login - Login fehlgeschlagen für Benutzer:  . Statuscode: 401
+15:55:43.485 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login-Versuch für Benutzer:  Sage
+15:55:43.559 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login erfolgreich für Benutzer:  Sage. Statuscode: 200
+15:55:43.584 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - null null
+15:55:43.593 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:55:43.596 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.597 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET /set-cookie-endpoint'
+15:55:43.599 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.602 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=AUtdN6_UnD6Z5b99Igd3eg - 200 null null 7777.5781ms
+15:55:43.637 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.643 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 50.4479ms
+15:55:43.643 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNGSFDFR7NHS", Request id "0HNGSFDFR7NHS:00000015": the application completed without reading the entire request body.
+15:55:43.646 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies signed in.
+15:55:43.649 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=7ygv09F-H3YqPC2gOJ5yfw - null null
+15:55:43.654 +01:00 [INF] Microsoft.AspNetCore.Http.Result.RedirectResult - Executing RedirectResult, redirecting to /.
+15:55:43.655 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.656 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET /set-cookie-endpoint'
+15:55:43.659 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - 302 0 null 75.3838ms
+15:55:43.668 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:55:43.677 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:55:43.695 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/ (/)'
+15:55:43.707 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/ - 200 null text/html; charset=utf-8 39.5507ms
+15:55:43.711 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/disconnect - multipart/form-data; boundary=----geckoformboundary408d275b6efb2e0a96a26eecf3bd43cd 389
+15:55:43.718 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.731 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=7ygv09F-H3YqPC2gOJ5yfw - 200 null null 82.0274ms
+15:55:43.735 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNGSFDFR7NHS", Request id "0HNGSFDFR7NHS:0000001B": the application completed without reading the entire request body.
+15:55:43.728 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.738 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - null null
+15:55:43.739 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:55:43.739 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:55:43.746 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.753 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:55:43.757 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:55:43.755 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 16.0613ms
+15:55:43.757 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:55:43.759 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:55:43.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:55:43.763 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.796 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.lkevc0spdh.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-lkevc0spdh.gz'
+15:55:43.802 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:43.799 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:55:43.800 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/disconnect - 200 0 null 89.1703ms
+15:55:43.796 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 57.7002ms
+15:55:43.803 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.lkevc0spdh.css - 200 18173 text/css 65.1272ms
+15:55:43.811 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 12.6854ms
+15:55:43.824 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.4617ms
+15:55:45.727 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/abmelden - null null
+15:55:45.736 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET /abmelden'
+15:55:45.739 +01:00 [INF] Microsoft.AspNetCore.Http.Result.RedirectResult - Executing RedirectResult, redirecting to /.
+15:55:45.740 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET /abmelden'
+15:55:45.741 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/abmelden - 302 0 null 14.6033ms
+15:55:45.748 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:55:45.755 +01:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+15:55:45.757 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies was challenged.
+15:55:45.759 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/ - 302 0 null 11.3929ms
+15:55:45.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - null null
+15:55:45.785 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/login (/login)'
+15:55:45.791 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/login (/login)'
+15:55:45.794 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 30.2226ms
+15:55:45.812 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_blazor/initializers - null null
+15:55:45.817 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:45.818 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:45.821 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_blazor/initializers - 200 null application/json; charset=utf-8 9.3731ms
+15:55:45.825 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:55:45.832 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:45.833 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:45.835 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 10.0986ms
+15:55:45.838 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=l8Ik885WVUi-M7ohJyMM-w - null null
+15:55:45.843 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:54.719 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:54.721 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=l8Ik885WVUi-M7ohJyMM-w - 200 null null 8881.1886ms
+15:55:54.725 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNGSFDFR7NHS", Request id "0HNGSFDFR7NHS:00000035": the application completed without reading the entire request body.
+15:55:54.727 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/disconnect - multipart/form-data; boundary=----geckoformboundary504f6aaa5be7e30e2ccbe7367cd4c291 389
+15:55:54.734 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:54.738 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:55:54.741 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/disconnect - 200 0 null 13.3893ms

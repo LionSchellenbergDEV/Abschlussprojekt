@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\script.js
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\css\table.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\css\layout.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\css\login.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\css\components.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\wwwroot\css\base.css
+wwwroot\css\base.css
+wwwroot\css\components.css
+wwwroot\css\layout.css
+wwwroot\css\login.css
+wwwroot\css\table.css
+wwwroot\favicon.png
+wwwroot\script.js

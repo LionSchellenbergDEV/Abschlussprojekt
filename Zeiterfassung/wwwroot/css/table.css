@@ -1,0 +1,76 @@
+﻿/* Allgemeine Tabellen-Anpassung */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    text-align: left;
+    padding: 1rem;
+    padding-left: 0;
+    color: var(--color-text-light);
+    font-weight: 600;
+    border-bottom: 1px solid var(--color-secondary);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+tbody tr {
+    transition: background-color 0.2s;
+    
+}
+
+    tbody tr:hover {
+        background-color: rgba(133, 164, 255, 0.05);
+    }
+
+tbody td {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--color-secondary);
+    color: var(--color-text);
+    font-weight: 400;
+}
+
+/* Sage-Tickets Dashboard */
+    .tickets-table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+    .tickets-table th {
+        text-align: left;
+        padding: 1rem 0;
+        color: var(--color-text-light);
+        font-weight: 600;
+        border-bottom: 1px solid var(--color-secondary);
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        word-wrap: break-word;
+    }
+/* Ticket Detail Tabelle im Modal */
+.ticket-detail-table {
+    margin-top: 1rem;
+    table-layout: auto;
+}
+
+    .ticket-detail-table thead th {
+        padding: 0.8rem 0;
+        font-size: 0.8rem;
+    }
+
+    .ticket-detail-table tbody td {
+        padding: 0.6rem 0;
+        font-size: 0.9rem;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .ticket-detail-table .summary-row td {
+        border-top: 2px solid var(--color-primary);
+        background-color: var(--color-secondary);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }

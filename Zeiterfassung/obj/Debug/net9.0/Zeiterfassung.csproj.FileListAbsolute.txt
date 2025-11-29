@@ -1,0 +1,116 @@
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\appsettings.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.staticwebassets.runtime.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.staticwebassets.endpoints.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.exe
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.deps.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.runtimeconfig.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\MailKit.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\MimeKit.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\bin\Debug\net9.0\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\scopedcss\bundle\Zeiterfassung.styles.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\scopedcss\projectbundle\Zeiterfassung.bundle.scp.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\s4rnz28msz-u4zm4mmkhn.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\4t4zpprmld-u4zm4mmkhn.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.Zeiterfassung.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.Zeiterfassung.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.build.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfa.ABEB97F3.Up2Date
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\refint\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\ref\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\prcqlinlab-70g69ertg0.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\0n0e1nleee-l0pje9nv53.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\xsy5029s87-1g4ezdlybd.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\x5emlgo27i-vd8ao9bqqj.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\kdm6q5zxcq-nwp4nfw9yq.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\160vdx0448-ld2rhgmywd.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\appsettings.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.staticwebassets.endpoints.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.staticwebassets.runtime.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.exe
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.deps.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.runtimeconfig.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Zeiterfassung.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\MailKit.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\MimeKit.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\bin\Debug\net9.0\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\scopedcss\bundle\Zeiterfassung.styles.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\scopedcss\projectbundle\Zeiterfassung.bundle.scp.css
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\xsy5029s87-1g4ezdlybd.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\x5emlgo27i-vd8ao9bqqj.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\kdm6q5zxcq-nwp4nfw9yq.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\prcqlinlab-70g69ertg0.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\160vdx0448-ld2rhgmywd.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\0n0e1nleee-l0pje9nv53.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\s4rnz28msz-u4zm4mmkhn.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\compressed\4t4zpprmld-u4zm4mmkhn.gz
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.Zeiterfassung.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.Zeiterfassung.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.build.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Zeiterfassung.props
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfa.ABEB97F3.Up2Date
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\refint\Zeiterfassung.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\Zeiterfassung.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\Zeiterfassung\obj\Debug\net9.0\ref\Zeiterfassung.dll

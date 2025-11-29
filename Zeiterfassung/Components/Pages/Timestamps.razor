@@ -1,0 +1,374 @@
+﻿@page "/timestamps"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Authorization
+@using System.Net.Http.Json
+@using System.Net.Http.Headers
+@using System.Text.Json
+@using Microsoft.AspNetCore.Mvc
+@using System.Text.Json.Serialization
+@using Zeiterfassung.Components.Models
+@using Zeiterfassung.Models
+@using Zeiterfassung.Repositories
+@inject DTSAG.Common.RestClient.SageRestClient SageClient
+@inject HttpClient Http
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+@inject IJSRuntime JsRuntime
+@inject TimestampRepository timestampRepo
+@attribute [Authorize]
+
+
+<div id="mobile-nav">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx6Ugeth&s" alt="Datatronic Logo">
+    <ul>
+        <li class="active" data-target="email-section">
+            <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+        </li>
+        <li data-target="ticket-section">
+            <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+        </li>
+    </ul>
+        <a href="/abmelden" class="logout-link">
+            <button>
+                🚪 Abmelden
+            </button>
+            </a>
+    </div>
+
+<link href="css/layout.css" rel="stylesheet" />
+<link href="css/components.css" rel="stylesheet" />
+<link href="css/table.css" rel="stylesheet" />
+
+<div class="dashboard-container">
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx0Ugeth&s" alt="Datatronic Logo">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li data-target="email-section">
+                    <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+                </li>
+                <li class="active" data-target="ticket-section">
+                    <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logout-section">
+            <a href="/abmelden" class="logout-link">
+                🚪 Abmelden
+            </a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="content-header">
+            <h1 id="dashboard-title">Sage Tickets</h1>
+        </header>
+        <section class="dashboard-section active" id="ticket-section">
+            <div class="card">
+              <a href="/sagetickets"><button class="details-btn">zurück</button></a>
+                @if (timestamps != null && timestamps.Count > 0)
+                {
+                        <div style="overflow-x: auto;">
+                    <table class="tickets-table">
+                        <thead>
+                            <tr>
+                                <th>Projekt Pos. ID</th>
+                                <th>Projekt ID</th>
+                                <th>Datum</th>
+                                <th>Stunden</th>
+                                <th>Vorgang</th>
+                                <th>Bearbeiter</th>
+                                <th>Ausführer</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var timestamp in timestamps)
+                            {
+                                <tr>
+                                    <td>@timestamp.ProjektPosID</td>
+                                    <td>@timestamp.ProjektID</td>
+                                    <td>@timestamp.Datum.ToString("dd.MM.yyyy")</td>
+                                    <td>@timestamp.Stunden</td>
+                                    <td>@timestamp.Vorgang</td>
+                                    <td>@timestamp.Bearbeiter</td>
+                                    <td>@timestamp.Ausfuehrer</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+                } else {
+                    <h4>Es wurden noch keine Zeiten für dieses Ticket erfasst.</h4>
+                }
+            </div>
+            <div class="card" style="margin-top: 2%;">
+                <h2>Zeiterfassung</h2>
+                <EditForm Model="@EingabeTicket" FormName="EingabeTicketForm"  OnValidSubmit="@HandleSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+                    <div style="overflow-x: auto;">
+                    <table class="tickets-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Stunden</th>
+                                <th>Vorgang</th>
+                                <th>Bearbeiter</th>
+                                <th>Ausführer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <InputDate class="timestamp-input"
+                                    @bind-Value="@EingabeTicket.Datum" />
+                                </td>
+                                <td>
+                                    <InputNumber class="timestamp-input"
+                                    @bind-Value="@EingabeTicket.Stunden"
+                                    step="0.1" min="0.1" />
+                                </td>
+                                <td>
+                                    <InputText class="timestamp-input"
+                                    @bind-Value="@EingabeTicket.Vorgang" />
+                                </td>
+                                <td>
+                                    <InputText class="timestamp-input"
+                                    @bind-Value="@EingabeTicket.Bearbeiter" />
+                                </td>
+                                <td>
+                                    <InputText class="timestamp-input"
+                                    @bind-Value="@EingabeTicket.Ausfuehrer" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <button type="submit" class="success-btn" style="margin-top: 2%;">Speichern</button>
+                </EditForm>
+
+            </div>
+        </section>
+    </main>
+</div>
+
+@code {
+    /// <summary>
+    /// Die ID des Projekts/Tickets, für das Zeiten erfasst werden sollen. 
+    /// Wird als Query-Parameter aus der URL bezogen.
+    /// </summary>
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string ProjektPosID { get; set; } = string.Empty;
+
+
+    private List<Ticket> tickets = new();
+    private List<SageTicket> sageTickets = new();
+    private List<TimestampsModal> timestamps = new();
+    private bool firstRender = true;
+
+    private Timestamp EingabeTicket= new Timestamp();
+
+    private const string JsonTicketArrayKey = "$resources";
+    private const string //Link entfernt = "https://WIN-SWE:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung";
+    private const string ApiUsername = "";
+    private const string ApiPassword = "";
+
+    private int NextAvailablePosID = 1;
+
+    /// <summary>
+    /// Initialisiert die Komponente. Ruft die vorhandenen Zeiteinträge ab und berechnet die nächste PosID.
+    /// </summary>
+    protected override async Task OnInitializedAsync()
+    {
+        if (string.IsNullOrEmpty(ProjektPosID)) return;
+
+        var authString = $"{ApiUsername}:{ApiPassword}";
+        var encodedAuth = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(authString));
+        Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", encodedAuth);
+
+
+        Http.DefaultRequestHeaders.Accept.Clear();
+        Http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+        //  Abruf der Zeiteinträge fpr das aktuelle Ticket (Anzeige)
+        var filteredResponse = await Http.GetAsync(//Link entfernt + $"?where=ProjektPosID eq {ProjektPosID}");
+        filteredResponse.EnsureSuccessStatusCode();
+
+        var jsonString = await filteredResponse.Content.ReadAsStringAsync();
+        timestamps = await ParseTicketResponse2(jsonString);
+
+        if (timestamps != null && timestamps.Count > 0)
+        {
+            EingabeTicket.ProjektPosID = timestamps[0].ProjektPosID;
+            EingabeTicket.ProjektID = timestamps[0].ProjektID;
+        }
+
+        
+        var full//Link entfernt = //Link entfernt + "?$select=PosID";
+
+        var globalResponse = await Http.GetAsync(full//Link entfernt);
+        globalResponse.EnsureSuccessStatusCode();
+
+        var globalJsonString = await globalResponse.Content.ReadAsStringAsync();
+
+        // NParser, der nur PosIDs extrahiert
+        var allTimestamps = await ParseTicketResponse2(globalJsonString);
+
+        // Nächste PosID berechnen
+        if (allTimestamps != null && allTimestamps.Count > 0)
+        {
+            // Sicherstellen, dass die PosID in TimestampsModal vorhanden ist
+            NextAvailablePosID = allTimestamps.Max(t => t.PosID) + 1;
+        }
+        else
+        {
+            // Wenn keine Einträge existieren, fangen wir bei 1 an.
+            NextAvailablePosID = 1;
+        }
+
+        Console.WriteLine($"Nächste PosID global berechnet: {NextAvailablePosID}");
+        Console.WriteLine("Durchgelaufen");
+    }
+
+    /// <summary>
+    /// Parsen der JSON-Antwort von der SData-API. Sucht das Array unter dem Key "$resources".
+    /// </summary>
+    /// <param name="jsonString">Der rohe JSON-String.</param>
+    /// <returns>Eine Liste von <see cref="TimestampsModal"/> Objekten.</returns>
+    private async Task<List<TimestampsModal>?> ParseTicketResponse2(string jsonString)
+    {
+        try
+        {
+            using (JsonDocument document = JsonDocument.Parse(jsonString))
+            {
+                if (document.RootElement.ValueKind == JsonValueKind.Object)
+                {
+                    if (document.RootElement.TryGetProperty(JsonTicketArrayKey, out JsonElement ticketArrayElement) && ticketArrayElement.ValueKind == JsonValueKind.Array)
+                    {
+                        Console.WriteLine($"Tickets erfolgreich unter dem Key '{JsonTicketArrayKey}' gefunden und deserialisiert.");
+                        return ticketArrayElement.Deserialize<List<TimestampsModal>>();
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Fehler beim Parsen: Das Array unter '{JsonTicketArrayKey}' wurde nicht gefunden oder ist kein gültiges Array. Struktur: {jsonString}");
+                        return new List<TimestampsModal>();
+                    }
+                }
+                else if (document.RootElement.ValueKind == JsonValueKind.Array)
+                {
+                    return document.RootElement.Deserialize<List<TimestampsModal>>();
+                }
+                else
+                {
+                    throw new Exception("API-Antwort ist weder ein JSON-Objekt noch ein JSON-Array. Unbekannte Struktur.");
+                }
+            }
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Kritischer Deserialisierungsfehler im JSON: {ex.Message}");
+            return new List<TimestampsModal>();
+        }
+    }
+
+    private const string Post//Link entfernt = "https://WIN-SWE:5493/sdata/ol/apiTest.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptTest2.100000014.DTSAG_Ticketverwaltung";
+
+    /// <summary>
+    /// Datenmodell für den POST-Request. Achtung: Die Typisierung muss exakt der API-Erwartung entsprechen.
+    /// </summary>
+    public class PostPayload
+    {
+        [JsonPropertyName("$type")]
+        public string EntityType { get; set; } = "eptTest2.100000014.DTSAG_Ticketverwaltung";
+
+        public bool istBerechnet { get; set; } = false;
+        public int posID { get; set; }
+        public int projektID { get; set; } = 100;
+        public int projektPosId { get; set; } = 1;
+        public string ressource { get; set; } = "";
+        public bool zuBerechnen { get; set; } = true;
+        public DateTime datum { get; set; }
+        public decimal stunden { get; set; }
+        public string vorgang { get; set; }
+    }
+
+
+    /// <summary>
+    /// Verarbeitet das Absenden des Zeiterfassungsformulars und sendet die Daten per POST an die Sage API.
+    /// </summary>
+    private async Task HandleSubmit()
+    {
+
+        // 1. Authorization Header vorbereiten
+        var authString = $"{ApiUsername}:{ApiPassword}";
+        var encodedAuth = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(authString));
+        var authValue = new AuthenticationHeaderValue("Basic", encodedAuth);
+
+        if (NextAvailablePosID <= 0)
+        {
+            // Fallback falls OnInitializedAsync fehlgeschlagen ist
+            Console.WriteLine("Fehler: NextAvailablePosID nicht berechnet. Senden abgebrochen.");
+            return;
+        }
+        // 2. Payload-Objekt erstellen
+        var payload = new PostPayload
+            {
+                posID = NextAvailablePosID,
+                istBerechnet = false,
+                zuBerechnen = true,
+                projektID = timestamps[0].ProjektID,
+                projektPosId = timestamps[0].ProjektPosID,
+                ressource = EingabeTicket.Ausfuehrer, 
+                datum = EingabeTicket.Datum,
+                stunden = EingabeTicket.Stunden,
+                vorgang = EingabeTicket.Vorgang,
+            };
+
+        // 3. HttpRequestMessage erstellen (POST-Request)
+        var request = new HttpRequestMessage(HttpMethod.Post, Post//Link entfernt);
+
+        // 4. Header setzen
+        request.Headers.Authorization = authValue;
+        request.Headers.Accept.Clear();
+        request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+        // 5. Content (JSON-Body) erstellen
+        // JsonContent.Create serialisiert das Payload-Objekt zu JSON und setzt den Header Content-Type: application/json
+        request.Content = JsonContent.Create(payload, new MediaTypeHeaderValue("application/json"));
+
+        try
+        {
+            // 6. Request senden
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("✅ Daten erfolgreich an Sage 100 API gesendet.");
+                EingabeTicket = new Timestamp();
+                Navigation.NavigateTo(Navigation.Uri, forceLoad: true);
+            }
+            else
+            {
+                // Fehler-Body auslesen und ausgeben
+                var errorContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Fehler beim Absenden: {response.ReasonPhrase}");
+
+                // Versuch, den Sage-Status-Header zu holen
+                if (response.Headers.TryGetValues("X-SAGE-Status", out var sageStatus))
+                {
+                    Console.WriteLine($"Sage Status: {sageStatus.FirstOrDefault()}");
+                }
+                Console.WriteLine($"Detaillierter Fehler-Body (JSON): {errorContent}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Kritischer Fehler beim API-Aufruf: {ex.Message}");
+        }
+    }
+}

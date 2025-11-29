@@ -1,0 +1,711 @@
+15:22:45.349 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:22:46.031 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:22:46.033 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:22:46.048 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:22:46.109 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:22:46.110 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:22:46.111 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:22:46.597 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:22:46.788 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:23:09.384 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:23:09.412 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:23:19.884 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:23:19.892 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 10507.0959ms
+15:23:19.905 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:23:19.911 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - null null
+15:23:19.912 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:23:19.912 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:23:19.915 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:23:19.933 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:23:19.933 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:23:19.933 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 21.7412ms
+15:23:19.937 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/script.js - null null
+15:23:19.943 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:23:19.959 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 54.0046ms
+15:23:19.972 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/_framework/blazor.web.js'. Physical path: 'N/A'
+15:23:19.973 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:23:19.974 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 200 187521 text/javascript 62.4251ms
+15:23:19.991 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.d2k9iwp9xl.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-d2k9iwp9xl.gz'
+15:23:19.994 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.3068ms
+15:23:20.002 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/script.js'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\wwwroot\script.js'
+15:23:20.002 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:23:20.007 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/script.js - 200 9270 text/javascript 70.0787ms
+15:23:20.008 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - 200 19238 text/css 96.4855ms
+15:23:20.022 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:23:20.025 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 3.4963ms
+15:23:20.030 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:23:24.020 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - null null
+15:23:24.025 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:23:24.053 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:23:24.058 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:23:24.449 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 387.7904ms - 200
+15:23:24.452 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 399.9551ms - 200
+15:23:24.476 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:23:24.477 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - 200 null text/html; charset=utf-8 457.315ms
+15:23:29.328 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:23:29.335 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:23:29.363 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:23:29.365 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 37.0627ms
+15:23:30.746 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:23:30.751 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:23:30.753 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:23:30.758 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:23:30.773 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 12.8997ms - 200
+15:23:30.774 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 20.6076ms - 200
+15:23:30.777 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:23:30.778 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 31.4943ms
+15:26:17.473 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:26:18.036 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:26:18.038 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:26:18.047 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:26:18.105 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:26:18.106 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:26:18.107 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:26:18.892 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:26:19.054 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:26:22.186 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:26:22.204 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:26:22.414 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:26:22.424 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:26:22.426 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - null null
+15:26:22.426 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:26:22.430 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 244.6079ms
+15:26:22.441 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:26:22.445 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:26:22.445 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:26:22.445 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:26:22.445 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 19.0525ms
+15:26:22.452 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:26:22.456 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:26:22.486 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:26:22.486 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 45.9365ms
+15:26:22.491 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 66.8291ms
+15:26:22.506 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.d2k9iwp9xl.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-d2k9iwp9xl.gz'
+15:26:22.508 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:26:22.510 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - 200 19238 text/css 83.5224ms
+15:26:22.522 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.7793ms
+15:26:22.542 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:26:22.546 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 3.9029ms
+15:26:22.550 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:26:26.111 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:26:26.117 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:26:26.137 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:26:26.141 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:26:26.167 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 17.9881ms - 200
+15:26:26.169 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 33.3119ms - 200
+15:26:26.188 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:26:26.189 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 78.7573ms
+15:27:24.742 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:27:25.203 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:27:25.206 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:27:25.216 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:27:25.276 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:27:25.277 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:27:25.278 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:27:25.971 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:27:26.116 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:27:33.514 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:27:33.534 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:27:33.742 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:27:33.752 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 237.766ms
+15:27:33.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - null null
+15:27:33.770 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:27:33.764 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:27:33.764 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:27:33.779 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:27:33.779 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:27:33.780 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 15.8893ms
+15:27:33.783 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:27:33.794 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 32.5173ms
+15:27:33.795 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:27:33.805 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:27:33.805 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 35.2845ms
+15:27:33.806 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:27:33.819 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.d2k9iwp9xl.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-d2k9iwp9xl.gz'
+15:27:33.821 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:27:33.822 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - 200 19238 text/css 59.5888ms
+15:27:33.836 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.73ms
+15:27:33.839 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:27:33.845 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 6.6054ms
+15:27:33.849 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:27:36.282 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:27:36.288 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:27:36.307 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:27:36.310 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:27:36.336 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 21.5367ms - 200
+15:27:36.338 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 31.5225ms - 200
+15:27:36.355 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:27:36.356 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 74.0496ms
+15:27:44.469 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:27:44.475 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:27:44.494 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:27:44.495 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 26.8333ms
+15:28:35.629 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:28:36.148 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:28:36.150 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:28:36.160 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:28:36.215 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:28:36.216 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:28:36.217 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:28:36.758 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:28:36.922 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:28:42.647 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:28:42.663 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:28:42.877 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:28:42.885 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 238.4938ms
+15:28:42.902 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:28:42.902 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:28:42.902 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:28:42.902 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - null null
+15:28:42.909 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:28:42.916 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:28:42.916 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:28:42.916 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 14.7219ms
+15:28:42.923 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:28:42.930 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:28:42.933 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 31.4298ms
+15:28:42.934 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:28:42.939 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 37.4483ms
+15:28:42.949 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.d2k9iwp9xl.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-d2k9iwp9xl.gz'
+15:28:42.951 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:28:42.952 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - 200 19238 text/css 50.5259ms
+15:28:42.962 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4856ms
+15:28:42.975 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:28:42.979 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 4.1488ms
+15:28:42.983 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:28:44.953 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:28:44.961 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:28:44.981 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:28:44.986 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:28:45.009 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 18.3039ms - 200
+15:28:45.011 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 31.3103ms - 200
+15:28:45.030 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:28:45.032 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 78.9131ms
+15:28:46.334 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:28:46.341 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:28:46.363 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:28:46.366 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 32.0991ms
+15:28:47.972 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:28:47.977 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:28:47.979 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:28:47.982 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:28:47.992 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 8.5044ms - 200
+15:28:47.994 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 14.8599ms - 200
+15:28:47.996 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:28:47.999 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 27.1224ms
+15:28:58.696 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:28:58.701 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:28:58.725 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:28:58.727 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 31.0485ms
+15:29:01.698 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:29:01.703 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:29:01.706 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:29:01.707 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:29:01.719 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 10.073ms - 200
+15:29:01.720 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 14.3232ms - 200
+15:29:01.722 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:29:01.724 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 25.3988ms
+15:29:05.976 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:29:05.980 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:29:06.000 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:29:06.001 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 25.8185ms
+15:29:14.272 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets?ticketFilter=Kalibrierung - null null
+15:29:14.279 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:29:14.299 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:29:14.300 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets?ticketFilter=Kalibrierung - 200 null text/html; charset=utf-8 28.4051ms
+15:29:14.326 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:29:14.327 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:29:14.327 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:29:14.327 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:29:14.332 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 5.701ms
+15:29:14.335 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - null null
+15:29:14.338 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:29:14.342 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:29:14.345 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:29:14.347 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:29:14.349 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 21.8735ms
+15:29:14.354 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:29:14.354 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.d2k9iwp9xl.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-d2k9iwp9xl.gz'
+15:29:14.354 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.2253ms
+15:29:14.359 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 31.6911ms
+15:29:14.360 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:29:14.368 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.d2k9iwp9xl.css - 200 19238 text/css 33.0621ms
+15:29:14.387 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:29:14.391 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 3.9828ms
+15:29:14.394 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:36:54.186 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:36:54.652 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:36:54.653 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:36:54.663 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:36:54.714 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:36:54.716 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:36:54.717 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:36:55.349 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:36:55.513 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:36:59.996 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:37:00.010 +01:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+15:37:00.022 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies was challenged.
+15:37:00.027 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 302 0 null 30.197ms
+15:37:00.031 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2Fsagetickets - null null
+15:37:00.054 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/login (/login)'
+15:37:00.179 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/login (/login)'
+15:37:00.184 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2Fsagetickets - 200 null text/html; charset=utf-8 153.8216ms
+15:37:00.213 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - null null
+15:37:00.213 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:37:00.213 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:37:00.213 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:37:00.213 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:37:00.220 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.221 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 7.4858ms
+15:37:00.222 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:37:00.230 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:37:00.233 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/script.js - null null
+15:37:00.283 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 28.5564ms
+15:37:00.301 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/script.js'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\wwwroot\script.js'
+15:37:00.301 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/_framework/blazor.web.js'. Physical path: 'N/A'
+15:37:00.303 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/script.js - 200 9270 text/javascript 69.5147ms
+15:37:00.304 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:37:00.310 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 200 187521 text/javascript 96.7412ms
+15:37:00.317 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.2758ms
+15:37:00.319 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:37:00.321 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.323 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - 200 19478 text/css 109.8204ms
+15:37:00.334 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:37:00.338 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 404 0 null 3.584ms
+15:37:00.343 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 404
+15:37:00.374 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_blazor/initializers - null null
+15:37:00.418 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.428 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.430 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_blazor/initializers - 200 null application/json; charset=utf-8 55.5962ms
+15:37:00.435 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:37:00.440 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.451 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:00.453 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 17.9556ms
+15:37:00.456 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=fKrbv4VUY7u2_iZfPZjveQ - null null
+15:37:00.459 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:04.608 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login-Versuch für Benutzer: Sage
+15:37:04.708 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login erfolgreich für Benutzer: Sage. Statuscode: 200
+15:37:04.729 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - null null
+15:37:04.732 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:37:04.739 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:04.741 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:04.741 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET /set-cookie-endpoint'
+15:37:04.742 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=fKrbv4VUY7u2_iZfPZjveQ - 200 null null 4285.249ms
+15:37:04.743 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:04.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 30.4117ms
+15:37:04.773 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNH91DLF8CHI", Request id "0HNH91DLF8CHI:0000001B": the application completed without reading the entire request body.
+15:37:04.774 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=qfbawUFmNWbm0RhWuJdonw - null null
+15:37:04.806 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:04.806 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies signed in.
+15:37:04.811 +01:00 [INF] Microsoft.AspNetCore.Http.Result.RedirectResult - Executing RedirectResult, redirecting to /.
+15:37:04.812 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET /set-cookie-endpoint'
+15:37:04.815 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - 302 0 null 85.9353ms
+15:37:04.820 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:37:04.825 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:37:21.562 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.564 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=qfbawUFmNWbm0RhWuJdonw - 200 null null 16788.9183ms
+15:37:21.571 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNH91DLF8CHI", Request id "0HNH91DLF8CHI:00000021": the application completed without reading the entire request body.
+15:37:21.574 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2Fsagetickets - null null
+15:37:21.574 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:37:21.579 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/login (/login)'
+15:37:21.580 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.587 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.588 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 14.2586ms
+15:37:21.593 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=C9iFROzw4PXDzuiVJ9KWPg - null null
+15:37:21.596 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/disconnect - multipart/form-data; boundary=----geckoformboundary65ef4f72c524695e3bdf9798366f8f8c 389
+15:37:21.597 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/login (/login)'
+15:37:21.607 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.613 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - null null
+15:37:21.623 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:37:21.614 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:37:21.611 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.623 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:37:21.613 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/login?ReturnUrl=%2Fsagetickets - 200 null text/html; charset=utf-8 39.1288ms
+15:37:21.669 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:37:21.666 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.670 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 56.2151ms
+15:37:21.650 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:37:21.656 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/script.js - null null
+15:37:21.709 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/_framework/blazor.web.js'. Physical path: 'N/A'
+15:37:21.712 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:37:21.720 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:37:21.722 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.728 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 101.5563ms
+15:37:21.730 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:37:21.731 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.747 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - 200 19478 text/css 133.3192ms
+15:37:21.735 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/disconnect - 200 0 null 138.3718ms
+15:37:21.740 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 200 187521 text/javascript 116.9743ms
+15:37:21.734 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/script.js'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\wwwroot\script.js'
+15:37:21.752 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.1221ms
+15:37:21.760 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/script.js - 200 9270 text/javascript 106.4022ms
+15:37:21.778 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:37:21.787 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 404 0 null 12.3558ms
+15:37:21.790 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 404
+15:37:21.801 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_blazor/initializers - null null
+15:37:21.803 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.805 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.811 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_blazor/initializers - 200 null application/json; charset=utf-8 10.5222ms
+15:37:21.817 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:37:21.821 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.824 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:21.827 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 10.3186ms
+15:37:21.831 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=ykxaxx5z-sdIOtE74JVBqw - null null
+15:37:21.838 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:24.439 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login-Versuch für Benutzer: Sage
+15:37:24.459 +01:00 [INF] Zeiterfassung.Components.Pages.Login - Login erfolgreich für Benutzer: Sage. Statuscode: 200
+15:37:24.467 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:24.469 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=ykxaxx5z-sdIOtE74JVBqw - 200 null null 2637.8403ms
+15:37:24.476 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - null null
+15:37:24.476 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - null 0
+15:37:24.477 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNH91DLF8CHK", Request id "0HNH91DLF8CHK:0000001D": the application completed without reading the entire request body.
+15:37:24.482 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET /set-cookie-endpoint'
+15:37:24.485 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:24.492 +01:00 [INF] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies signed in.
+15:37:24.493 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:24.494 +01:00 [INF] Microsoft.AspNetCore.Http.Result.RedirectResult - Executing RedirectResult, redirecting to /.
+15:37:24.496 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 19.7121ms
+15:37:24.497 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET /set-cookie-endpoint'
+15:37:24.498 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 CONNECT https://localhost:7128/_blazor?id=TCN3g0Goiccvjn7D6CBeiQ - null null
+15:37:24.502 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/set-cookie-endpoint?key=UserLogin&value=7a37f8186ca046a48c36d709500ef00554c514205f8c81ecfa63afb85bf99e2f&days=1 - 302 0 null 25.7961ms
+15:37:24.507 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:37:24.510 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:24.517 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:37:26.587 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:26.589 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 CONNECT https://localhost:7128/_blazor?id=TCN3g0Goiccvjn7D6CBeiQ - 200 null null 2090.1604ms
+15:37:26.590 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:7128/_blazor/disconnect - multipart/form-data; boundary=----geckoformboundary7fc4c54411a2e2a622fd122576477501 389
+15:37:26.592 +01:00 [INF] Microsoft.AspNetCore.Server.Kestrel - Connection id "0HNH91DLF8CHK", Request id "0HNH91DLF8CHK:00000023": the application completed without reading the entire request body.
+15:37:26.596 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:26.600 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:26.601 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:7128/_blazor/disconnect - 200 0 null 10.2785ms
+15:37:32.098 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:37:32.534 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:37:32.536 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:37:32.548 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:37:32.607 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:37:32.609 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:37:32.610 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:37:33.294 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:37:33.456 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:37:37.199 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:37:37.213 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:37:37.409 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:37:37.416 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 217.0174ms
+15:37:37.427 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - null null
+15:37:37.427 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:37:37.428 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:37:37.435 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:37:37.439 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:37:37.439 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:37.439 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 12.0794ms
+15:37:37.444 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:37:37.447 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:37:37.448 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:37:37.463 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:37:37.464 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 35.395ms
+15:37:37.469 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 22.4883ms
+15:37:37.479 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:37:37.480 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:37:37.482 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - 200 19478 text/css 54.3665ms
+15:37:37.487 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.714ms
+15:37:40.296 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - null null
+15:37:40.301 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:37:40.323 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:37:40.326 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:37:40.350 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 18.4262ms - 200
+15:37:40.352 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 32.1768ms - 200
+15:37:40.367 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:37:40.369 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - 200 null text/html; charset=utf-8 73.5884ms
+15:38:02.170 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=7d2ff17c26e24942b769343c08192ba4 - null null
+15:38:02.174 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:02.233 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:38:02.234 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:02.236 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=7d2ff17c26e24942b769343c08192ba4 - 200 19422 text/css 65.7193ms
+15:38:05.760 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=d6458de267a14154a223ce163784db9e - null null
+15:38:05.766 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:05.800 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:38:05.802 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:05.803 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=d6458de267a14154a223ce163784db9e - 200 19397 text/css 43.2571ms
+15:38:08.734 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - null null
+15:38:08.741 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:38:08.744 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:38:08.746 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:38:08.755 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 8.4529ms - 200
+15:38:08.757 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 12.3741ms - 200
+15:38:08.761 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:38:08.763 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - 200 null text/html; charset=utf-8 28.7122ms
+15:38:08.780 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - null null
+15:38:08.781 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:38:08.781 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:38:08.813 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:38:08.831 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:08.835 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:38:08.836 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 55.8986ms
+15:38:08.811 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:38:08.846 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 34.6253ms
+15:38:08.848 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:38:08.851 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:38:08.848 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:38:08.859 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:38:08.862 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:08.864 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 82.7242ms
+15:38:08.865 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css - 200 19397 text/css 85.1045ms
+15:38:08.870 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.8637ms
+15:38:32.321 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=ca0d1a8cc71c4393bbcc558efb805a73 - null null
+15:38:32.325 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:32.353 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.kbnie29f0b.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-kbnie29f0b.gz'
+15:38:32.357 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:38:32.358 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.kbnie29f0b.css?__browserLink_refresh=ca0d1a8cc71c4393bbcc558efb805a73 - 200 19402 text/css 36.6889ms
+15:41:13.087 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:41:13.563 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:41:13.565 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:41:13.574 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:41:13.634 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:41:13.635 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:41:13.636 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:41:14.069 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:41:14.214 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:41:21.111 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:41:21.128 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:41:21.339 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:41:21.348 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 236.3685ms
+15:41:21.352 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.v7vjgor6t7.css - null null
+15:41:21.353 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:41:21.353 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:41:21.357 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:41:21.365 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:41:21.373 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:41:21.374 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 21.0955ms
+15:41:21.374 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:41:21.379 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:41:21.378 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 12.4358ms
+15:41:21.380 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:41:21.389 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:41:21.390 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 37.6ms
+15:41:21.426 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.v7vjgor6t7.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-v7vjgor6t7.gz'
+15:41:21.429 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.2331ms
+15:41:21.430 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:41:21.435 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.v7vjgor6t7.css - 200 19606 text/css 83.0879ms
+15:41:24.358 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - null null
+15:41:24.363 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:41:24.382 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:41:24.384 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:41:24.408 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 19.6609ms - 200
+15:41:24.411 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 30.2779ms - 200
+15:41:24.429 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:41:24.430 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=96 - 200 null text/html; charset=utf-8 72.4831ms
+15:47:15.371 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:47:15.882 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:47:15.883 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:47:15.892 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:47:15.948 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:47:15.950 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:47:15.950 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:47:16.349 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:47:16.522 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:47:21.076 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:47:21.094 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:47:21.372 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:47:21.405 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 328.5758ms
+15:47:21.406 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - null null
+15:47:21.407 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:47:21.411 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:47:21.421 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:47:21.425 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:47:21.428 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 21.1404ms
+15:47:21.432 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:21.435 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:47:21.433 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 21.1841ms
+15:47:21.458 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:47:21.497 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:47:21.498 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:47:21.500 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 78.5643ms
+15:47:21.528 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.1402ms
+15:47:21.530 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.hfe2kmrlo2.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-hfe2kmrlo2.gz'
+15:47:21.534 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:21.535 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - 200 19606 text/css 128.36ms
+15:47:21.567 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:47:21.575 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 499 null null 7.681ms
+15:47:21.578 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 499
+15:47:26.411 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:47:26.416 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:47:26.436 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:26.438 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:26.461 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 17.6291ms - 200
+15:47:26.463 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 28.8896ms - 200
+15:47:26.480 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:47:26.483 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 71.6613ms
+15:47:52.514 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:47:52.523 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:47:52.525 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:52.527 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:52.541 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 11.9842ms - 200
+15:47:52.542 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 16.8906ms - 200
+15:47:52.545 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:47:52.547 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 33.0788ms
+15:47:52.578 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:47:52.578 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - null null
+15:47:52.588 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:47:52.588 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:47:52.591 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 12.3094ms
+15:47:52.598 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:47:52.593 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:52.596 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:47:52.602 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:47:52.607 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:47:52.611 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:47:52.610 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.hfe2kmrlo2.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-hfe2kmrlo2.gz'
+15:47:52.608 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 9.7174ms
+15:47:52.612 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 24.2791ms
+15:47:52.616 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:52.618 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.0555ms
+15:47:52.623 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - 200 19606 text/css 45.9366ms
+15:47:54.018 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:47:54.026 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:47:54.029 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:54.030 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:54.042 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 10.3232ms - 200
+15:47:54.044 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 14.8087ms - 200
+15:47:54.056 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:47:54.058 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 40.0395ms
+15:47:54.072 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - null null
+15:47:54.072 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:47:54.073 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:47:54.127 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 54.8784ms
+15:47:54.125 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:54.099 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:47:54.098 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:47:54.135 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:47:54.138 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:47:54.142 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 43.6111ms
+15:47:54.140 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.hfe2kmrlo2.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-hfe2kmrlo2.gz'
+15:47:54.146 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:47:54.151 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1379ms
+15:47:54.151 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:54.153 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:47:54.157 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - 200 19606 text/css 85.4767ms
+15:47:54.159 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 85.2243ms
+15:47:55.553 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:47:55.557 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:47:55.558 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:55.560 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:47:55.571 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 8.4883ms - 200
+15:47:55.574 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 15.1375ms - 200
+15:47:55.581 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:47:55.585 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 32.0549ms
+15:47:55.599 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - null null
+15:47:55.599 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:47:55.599 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:47:55.605 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:55.600 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:47:55.602 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/script.js - null null
+15:47:55.600 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:47:55.608 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 9.1767ms
+15:47:55.633 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:47:55.621 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 20.7966ms
+15:47:55.618 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.hfe2kmrlo2.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-hfe2kmrlo2.gz'
+15:47:55.616 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:47:55.642 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5157ms
+15:47:55.642 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/script.js'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\wwwroot\script.js'
+15:47:55.647 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:47:55.653 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/_framework/blazor.web.js'. Physical path: 'N/A'
+15:47:55.656 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:47:55.654 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - 200 19606 text/css 56.1241ms
+15:47:55.653 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/script.js - 200 9270 text/javascript 51.3892ms
+15:47:55.657 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 200 187521 text/javascript 57.9224ms
+15:47:55.693 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/favicon.ico - null null
+15:47:55.697 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/favicon.ico - 404 0 null 4.048ms
+15:47:55.701 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/favicon.ico, Response status code: 404
+15:48:15.432 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:48:15.913 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:48:15.915 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:48:15.925 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:48:15.980 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:48:15.981 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:48:15.982 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:48:16.582 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:48:16.745 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:48:22.133 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:48:22.152 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:48:22.356 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:48:22.364 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 230.8068ms
+15:48:22.375 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - null null
+15:48:22.375 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:48:22.376 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:48:22.376 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:48:22.393 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:48:22.393 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:48:22.394 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 18.712ms
+15:48:22.448 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:48:22.445 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:48:22.458 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:48:22.467 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:48:22.473 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 97.4616ms
+15:48:22.475 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 30.3137ms
+15:48:22.481 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.hfe2kmrlo2.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-hfe2kmrlo2.gz'
+15:48:22.488 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:48:22.488 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.3623ms
+15:48:22.489 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.hfe2kmrlo2.css - 200 19606 text/css 114.7901ms
+15:48:25.559 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:48:25.564 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:48:25.589 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:48:25.593 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:48:25.612 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 15.2796ms - 200
+15:48:25.614 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 26.3748ms - 200
+15:48:25.630 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:48:25.633 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 74.0478ms
+15:50:45.065 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:50:45.574 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:50:45.576 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:50:45.586 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:50:45.644 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:50:45.645 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:50:45.646 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:51:34.693 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:51:35.156 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:51:35.337 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:51:35.347 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:51:35.399 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:51:35.401 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:51:35.402 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:51:35.896 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:51:36.099 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'
+15:51:43.445 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/sagetickets - null null
+15:51:43.460 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/sagetickets (/sagetickets)'
+15:51:43.662 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/sagetickets (/sagetickets)'
+15:51:43.672 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/sagetickets - 200 null text/html; charset=utf-8 227.0146ms
+15:51:43.681 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/app.rf6eio2f67.css - null null
+15:51:43.682 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - null null
+15:51:43.682 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - null null
+15:51:43.683 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_vs/browserLink - null null
+15:51:43.700 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Blazor web static files'
+15:51:43.701 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/Abschlussprojekt.styles.css - 404 0 null 18.8039ms
+15:51:43.705 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:51:43.710 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7128/Abschlussprojekt.styles.css, Response status code: 404
+15:51:43.710 +01:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - The file /_framework/blazor.web.js was not modified
+15:51:43.717 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - null null
+15:51:43.732 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Blazor web static files'
+15:51:43.734 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/blazor.web.js - 304 null text/javascript 51.5714ms
+15:51:43.741 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 24.806ms
+15:51:43.755 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.6264ms
+15:51:43.768 +01:00 [INF] Microsoft.AspNetCore.StaticAssets.StaticAssetsInvoker - Sending file. Request path: 'app.rf6eio2f67.css'. Physical path: 'C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung\obj\Debug\net9.0\compressed\p39aaw45ru-rf6eio2f67.gz'
+15:51:43.770 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+15:51:43.771 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/app.rf6eio2f67.css - 200 19808 text/css 89.7297ms
+15:51:45.664 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - null null
+15:51:45.672 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/timestamps (/timestamps)'
+15:51:45.690 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:51:45.693 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET https://win-swe:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung?*
+15:51:45.716 +01:00 [INF] System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 19.1793ms - 200
+15:51:45.718 +01:00 [INF] System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 28.5596ms - 200
+15:51:45.735 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/timestamps (/timestamps)'
+15:51:45.736 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7128/timestamps?ProjektPosID=94 - 200 null text/html; charset=utf-8 72.661ms
+15:59:44.044 +01:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+15:59:44.703 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7128
+15:59:44.747 +01:00 [INF] Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5062
+15:59:44.757 +01:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider - No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+15:59:44.819 +01:00 [INF] Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+15:59:44.820 +01:00 [INF] Microsoft.Hosting.Lifetime - Hosting environment: Development
+15:59:44.821 +01:00 [INF] Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung\Zeiterfassung
+15:59:45.359 +01:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7128/ - null null
+15:59:45.506 +01:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/ (/)'

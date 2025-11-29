@@ -1,0 +1,52 @@
+﻿:root {
+    --color-primary: #85A4FF;
+    --color-primary-dark: #6481E9;
+    --color-secondary: #E0E4EB;
+    --color-background: #F8F9FA;
+    --color-surface: #FFFFFF;
+    --color-text: #2A313C;
+    --color-text-light: #6A7485;
+    --color-button-success: #21bf23;
+    --spacing-unit: 1rem;
+    --border-radius-sm: 4px;
+    --border-radius-lg: 10px;
+    --font-family: 'Inter', sans-serif;
+    --font-size-base: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+    body.modal-open {
+        overflow: hidden;
+    }
+
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-base: 14px;
+        --spacing-unit: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --font-size-base: 17px;
+    }
+}

@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = DTSAG.Common.RestClient
+build_property.ProjectDir = C:\Users\Administrator\Documents\Zeiterfassung\DTSAG.Common.RestClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

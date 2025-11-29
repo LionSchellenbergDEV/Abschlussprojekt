@@ -1,0 +1,2845 @@
+{
+  "Version": 1,
+  "Hash": "k9ASDWZWGQ/knOub93+zModnUC7MeeAf830BX/j68yM=",
+  "Source": "Zeiterfassung",
+  "BasePath": "_content/Zeiterfassung",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Zeiterfassung\\wwwroot",
+      "Source": "Zeiterfassung",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\0n0e1nleee-l0pje9nv53.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "script#[.{fingerprint=l0pje9nv53}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "si8pqks6sk",
+      "Integrity": "nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\160vdx0448-ld2rhgmywd.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/table#[.{fingerprint=ld2rhgmywd}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\table.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7yu39karhv",
+      "Integrity": "b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\table.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\4t4zpprmld-u4zm4mmkhn.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "Zeiterfassung#[.{fingerprint=u4zm4mmkhn}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ogo4xt1u8",
+      "Integrity": "YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\kdm6q5zxcq-nwp4nfw9yq.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/layout#[.{fingerprint=nwp4nfw9yq}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\layout.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bg7gu9xqai",
+      "Integrity": "RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\prcqlinlab-70g69ertg0.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/login#[.{fingerprint=70g69ertg0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\login.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w6rbt5bb1r",
+      "Integrity": "aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\s4rnz28msz-u4zm4mmkhn.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "Zeiterfassung#[.{fingerprint=u4zm4mmkhn}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ogo4xt1u8",
+      "Integrity": "YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\x5emlgo27i-vd8ao9bqqj.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/components#[.{fingerprint=vd8ao9bqqj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\components.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "i4syegn73i",
+      "Integrity": "4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\components.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\xsy5029s87-1g4ezdlybd.gz",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/base#[.{fingerprint=1g4ezdlybd}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\base.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "astpigws3n",
+      "Integrity": "9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "Zeiterfassung#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "u4zm4mmkhn",
+      "Integrity": "Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "Zeiterfassung#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "u4zm4mmkhn",
+      "Integrity": "Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\base.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/base#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1g4ezdlybd",
+      "Integrity": "/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\components.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/components#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vd8ao9bqqj",
+      "Integrity": "81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\layout.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/layout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwp4nfw9yq",
+      "Integrity": "2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\login.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "70g69ertg0",
+      "Integrity": "edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\table.css",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "css/table#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ld2rhgmywd",
+      "Integrity": "N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\table.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\favicon.png",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\script.js",
+      "SourceId": "Zeiterfassung",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\",
+      "BasePath": "_content/Zeiterfassung",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l0pje9nv53",
+      "Integrity": "mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/base.1g4ezdlybd.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\xsy5029s87-1g4ezdlybd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002164502165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1g4ezdlybd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/base.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.1g4ezdlybd.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1g4ezdlybd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/base.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.1g4ezdlybd.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\xsy5029s87-1g4ezdlybd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1g4ezdlybd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/base.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\xsy5029s87-1g4ezdlybd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002164502165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8rqmr90263xwKFxfQ1HNCDfXzNtu7UydH7az/4Q9xU="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\xsy5029s87-1g4ezdlybd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gp20iw4u+P2cBfciw7i8kmx25Ga2aLxY4lOR1LqMo4="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\x5emlgo27i-vd8ao9bqqj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000898472597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\x5emlgo27i-vd8ao9bqqj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.vd8ao9bqqj.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\x5emlgo27i-vd8ao9bqqj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000898472597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vd8ao9bqqj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.vd8ao9bqqj.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vd8ao9bqqj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-81Q8d889u9hs9qxNjO3psVFmQaVYzFYfhZbqBvtsziw="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.vd8ao9bqqj.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\x5emlgo27i-vd8ao9bqqj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vd8ao9bqqj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gAjwV1wPF1SyHoXGtAFcDFiTX+AUf9gCR77g12IKxI="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\kdm6q5zxcq-nwp4nfw9yq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000537056928"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\kdm6q5zxcq-nwp4nfw9yq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.nwp4nfw9yq.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\kdm6q5zxcq-nwp4nfw9yq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000537056928"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwp4nfw9yq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.nwp4nfw9yq.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwp4nfw9yq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VCjSR76YKyUuxssNkVUjUb3xDLzfEzMOpfqhuClBiE="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.nwp4nfw9yq.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\kdm6q5zxcq-nwp4nfw9yq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwp4nfw9yq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUQ+glfyC7X0kGUmg5NqPvcg7SpGB3nVExHd4fjoAds="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.70g69ertg0.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\prcqlinlab-70g69ertg0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001996007984"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70g69ertg0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.70g69ertg0.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70g69ertg0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.70g69ertg0.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\prcqlinlab-70g69ertg0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70g69ertg0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\prcqlinlab-70g69ertg0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001996007984"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edjrtKmKfLCW8vNkWcolXdKxNnY6hpDuixWY68nOiSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\prcqlinlab-70g69ertg0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 16:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aD+EItoUUp1iFQa7P5cafyJ4b+zLeVB2A01J4Xn0JFs="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\160vdx0448-ld2rhgmywd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001686340641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\table.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\160vdx0448-ld2rhgmywd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.ld2rhgmywd.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\160vdx0448-ld2rhgmywd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001686340641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ld2rhgmywd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/table.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.ld2rhgmywd.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\css\\table.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ld2rhgmywd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/table.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+pqyJLKevyy7faq1AdOfY/pHGQv4ARxsyI5lWAJlQM="
+        }
+      ]
+    },
+    {
+      "Route": "css/table.ld2rhgmywd.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\160vdx0448-ld2rhgmywd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Nov 2025 06:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ld2rhgmywd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/table.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b5hywcPkoQlx4eKLR32mM9b1Q7XCZDswfG+wrEhx+sY="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 14:51:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 14:51:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\0n0e1nleee-l0pje9nv53.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000396196513"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2523"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\0n0e1nleee-l0pje9nv53.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M="
+        }
+      ]
+    },
+    {
+      "Route": "script.l0pje9nv53.js",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\0n0e1nleee-l0pje9nv53.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000396196513"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2523"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0pje9nv53"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4="
+        }
+      ]
+    },
+    {
+      "Route": "script.l0pje9nv53.js",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0pje9nv53"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzjmSTPTvr7t+NEKLv/3Yci1jS60JOd2uAROyYPstU4="
+        }
+      ]
+    },
+    {
+      "Route": "script.l0pje9nv53.js.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\0n0e1nleee-l0pje9nv53.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0pje9nv53"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nJ7XfUZdSJTusO6JFeiS9QzDAy5PSQOhsWpK2IOy58M="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\4t4zpprmld-u4zm4mmkhn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001256281407"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\4t4zpprmld-u4zm4mmkhn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.styles.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\s4rnz28msz-u4zm4mmkhn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001256281407"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.styles.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.styles.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\s4rnz28msz-u4zm4mmkhn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\4t4zpprmld-u4zm4mmkhn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001256281407"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Zeiterfassung.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\4t4zpprmld-u4zm4mmkhn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.styles.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\s4rnz28msz-u4zm4mmkhn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001256281407"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.styles.css",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Zeiterfassung.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xlemh4kg1nk37u5w8ukL4oqVsNrFtz7PKhQpRr5aB+Y="
+        }
+      ]
+    },
+    {
+      "Route": "Zeiterfassung.u4zm4mmkhn.styles.css.gz",
+      "AssetFile": "C:\\Users\\Administrator\\Documents\\Abschlussprojekt Lion Schellenberg\\Zeiterfassung - Kopie\\Zeiterfassung\\obj\\Debug\\net9.0\\compressed\\s4rnz28msz-u4zm4mmkhn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 19:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4zm4mmkhn"
+        },
+        {
+          "Name": "label",
+          "Value": "Zeiterfassung.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyKY2DPVy90XxGB2rSFA+nbN00Zz9/T4fCVscDijhms="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+﻿@page "/login"
+@rendermode InteractiveServer
+@inject HttpClient Http
+@inject NavigationManager Nav
+@inject IHttpContextAccessor httpacc
+@inject ILogger<Login> Logger
+@using Microsoft.AspNetCore.Authentication
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication.Cookies
+@using System.Text
+@using System.Net.Http.Headers
+@using System.Security.Cryptography
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<PageTitle>Login</PageTitle>
+<link href="css/login.css" rel="stylesheet" />
+
+<style>
+    body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    }
+    /* Styling für die Fehlermeldung */
+    .error-message {
+        color: white; 
+        background-color: #dc3545; /* Rote Hintergrundfarbe */
+        border: 1px solid #dc3545;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        display: flex;
+    }
+    /* Styling für den Lade-Spinner (optional, aber nützlich) */
+    .spinner {
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid #fff;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin: 0 5px;
+        vertical-align: middle;
+    }
+    /* Keyframes für die Animation */
+    @@keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    /* Button-Styling, um den Cursor zu ändern, wenn deaktiviert */
+    .login-btn:disabled {
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
+</style>
+
+<div class="login-container">
+    <div class="login-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx6Ugeth&s" alt="Datatronic Logo">
+    </div>
+
+    <h1>Mitarbeiter-Login</h1>
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+            <div class="error-message">
+            @errorMessage
+            </div>
+    }
+    <EditForm Model="login" FormName="loginForm" OnSubmit="HandleLoginAndSetCookie">
+        <div class="input-group">
+            <label for="username">Mitarbeiterkürzel</label>
+            <InputText id="username" @bind-Value="login.Username" placeholder="z.B. NSCH" required/>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Passwort</label>
+            <InputText id="password" @bind-Value="login.Password" type="password" />
+        </div>
+
+        <button type="submit" class="login-btn" disabled="@isLoading">
+            @if (isLoading)
+            {
+                <span class="spinner"></span> <span>Anmelden...</span>
+            }
+            else
+            {
+                <span>Anmelden</span>
+            }
+        </button>
+    </EditForm>
+</div>
+
+@code {
+    private string errorMessage = null;
+    private bool isLoading = false;
+    private UserLogin login = new UserLogin();
+
+    /// <summary>
+    /// Datenmodell für die Anmeldeinformationen.
+    /// </summary>
+    public class UserLogin
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+
+    /// <summary>
+    /// Kaskadierender Parameter, der den aktuellen HttpContext für die Authentifizierung bereitstellt.
+    /// </summary>
+    [CascadingParameter]
+    public HttpContext context { get; set; } = default!;
+
+    /// <summary>
+    /// Erzeugt den SHA256-Hash eines Strings.
+    /// </summary>
+    /// <param name="rawData">Der zu hashende String.</param>
+    /// <returns>Die gehashte Zeichenkette als Hex-String.</returns>
+    string ComputeSha256Hash(string rawData)
+    {
+        using (SHA256 sha256Hash = SHA256.Create())
+        {
+            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
+
+            StringBuilder builder = new StringBuilder();
+            foreach (var b in bytes)
+            {
+                builder.Append(b.ToString("x2"));
+            }
+
+            return builder.ToString();
+        }
+    }
+    /// <summary>
+    /// Versucht, den Benutzer über eine externe API anzumelden, setzt den Authentifizierungs-Cookie
+    /// und leitet den Benutzer im Erfolgsfall weiter.
+    /// </summary>
+    private async Task HandleLoginAndSetCookie()
+    {
+        // 1. Ladevorgang starten und UI aktualisieren
+        isLoading = true;
+        errorMessage = null;
+        StateHasChanged(); 
+
+        // Laden der einzelnen Linkkomponenten
+        string baseUrl = Configuration["UrlComponents:BaseUrl"]; 
+        string mandant = Configuration["UrlComponents:Mandant"]; 
+        string database = Configuration["UrlComponents:Database"]; 
+
+        string //Link entfernt = $"{baseUrl}apiLogin.100000014.DTSAG_Ticketverwaltung/{database};{mandant}/eptLogin.100000014.DTSAG_Ticketverwaltung";
+
+        // Leerzeichen aus dem Passwort entfernen 
+        string cleanUsername = login.Username.Trim() ?? string.Empty;
+        //string cleanPassword = login.Password.Trim() ?? string.Empty;
+        
+        // Logge den Login-Versuch mit dem Benutzernamen (Level: Information)
+        Logger.LogInformation("Login-Versuch für Benutzer: {Username}", cleanUsername);
+
+        try
+        {
+            using var httpClient = new HttpClient();
+
+            // Kodiert Benutzername und Passwort für die Basic Authentication.
+            var base64EncodedCredentials = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{cleanUsername}:{login.Password}"));
+            
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64EncodedCredentials);
+            
+            using HttpResponseMessage responseMessage = await httpClient.GetAsync(//Link entfernt);
+            int statuscode = (int)responseMessage.StatusCode;
+
+            if (statuscode == 200)
+            {
+                // Erfolgreicher Login
+                Logger.LogInformation("Login erfolgreich für Benutzer: {Username}. Statuscode: {StatusCode}", cleanUsername, statuscode);
+
+                // Erstellt einen gehashten Wert der Anmeldeinformationen zur Überprüfung.
+                string cookieKey = "UserLogin";
+                string cookieValue = ComputeSha256Hash(base64EncodedCredentials);
+                int expirationDays = 1;
+
+                var url = Nav.ToAbsoluteUri($"set-cookie-endpoint?key={cookieKey}&value={cookieValue}&days={expirationDays}");
+
+                if (context != null)
+                {
+                    var claims = new List<Claim> { new Claim(ClaimTypes.Name, cleanUsername) };
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var principal = new ClaimsPrincipal(claimsIdentity);
+                    await context.SignInAsync(principal);
+                }
+
+                // Weiterleitung (beendet die Ausführung)
+                Nav.NavigateTo(url.ToString(), forceLoad: true);
+            }
+            else
+            {
+                //Login fehlgeschlagen
+                errorMessage = "Fehler: Mitarbeiterkürzel oder Passwort falsch.";
+                Logger.LogWarning("Login fehlgeschlagen für Benutzer: {Username}. Statuscode: {StatusCode}", cleanUsername, statuscode);
+            }
+        } 
+        catch (HttpRequestException ex) 
+        {
+            //Verbindungsfehler
+            errorMessage = "Verbindungsfehler, versuchen Sie es später erneut.";
+            Logger.LogError(ex, "HTTP-Anfragefehler beim Login für Benutzer: {Username}.", cleanUsername);
+        }
+        catch (Exception ex)
+        {
+            //Allgemeiner Fehler
+            errorMessage = "Ein unerwarteter Fehler ist aufgetreten. Bitte wenden Sie sich an den Support.";
+            Logger.LogError(ex, "Allgemeiner Fehler während des Login-Prozesses für Benutzer: {Username}.", cleanUsername);
+        }
+        finally
+        {
+            // Ladevorgang beenden, wenn nicht erfolgreich weitergeleitet wurde
+            if (errorMessage != null)
+            {
+                isLoading = false;
+                StateHasChanged(); 
+            }
+        }
+       
+    }
+}

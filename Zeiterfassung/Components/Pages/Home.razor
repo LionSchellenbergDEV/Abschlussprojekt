@@ -1,0 +1,541 @@
+﻿@page "/"
+@using MailKit
+@using MailKit.Net.Imap
+@using MailKit.Security
+@using MailKit.Search
+@using MimeKit
+@using System.Collections.Generic
+@using System.Threading.Tasks
+@using System.Timers
+@using System.Linq
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+@inject MailCacheService MailCache
+@inject IJSRuntime JsRuntime
+@rendermode InteractiveServer
+<PageTitle>E-mail Dashboard</PageTitle>
+
+<link href="css/layout.css" rel="stylesheet" />
+<link href="css/components.css" rel="stylesheet" />
+<link href="css/table.css" rel="stylesheet" />
+
+<style>
+    /*  Ladeindikator */
+    .loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    font-size: 1.2em;
+    color: #007bff;
+    }
+    .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+    }
+    @@keyframes spin {
+    to { transform: rotate(360deg); }
+    }
+</style>
+<div id="mobile-nav">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx6Ugeth&s" alt="Datatronic Logo">
+    <ul>
+        <li class="active" data-target="email-section">
+            <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+        </li>
+        <li data-target="ticket-section">
+            <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+        </li>
+    </ul>
+    <button>
+        <a href="/abmelden" class="logout-link">
+            🚪 Abmelden
+        </a>
+    </button>
+</div>
+<div class="dashboard-container">
+
+
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx6Ugeth&s" alt="Datatronic Logo">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li class="active" data-target="email-section">
+                    <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+                </li>
+                <li data-target="ticket-section">
+                    <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logout-section">
+            <a href="/abmelden" class="logout-link">
+                🚪 Abmelden
+            </a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="content-header">
+
+            <h1 id="dashboard-title">E-Mail Tickets</h1>
+            <form @onsubmit="ApplyFilter">
+                <div class="search-bar">
+                    <div class="filter-group">
+                        <label for="fromFilter">Absender</label>
+                        <input type="text" id="fromFilter" @bind="FromFilter" disabled="@IsLoading" />
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="subjectFilter">Betreff</label>
+                        <input type="text" id="subjectFilter"  @bind="SubjectFilter" disabled="@IsLoading" />
+                    </div>
+
+
+                    <button type="submit" disabled="@IsLoading">🔎 Filtern</button>
+                    <button type="button" @onclick="ResetFilter" disabled="@IsLoading">❌ Filter zurücksetzen</button>
+                </div>
+            </form>
+        </header>
+
+        <section class="dashboard-section active" id="email-section">
+            <div class="email-view-switcher">
+                <button class="view-btn @(CurrentView == MailView.Inbox ? "active" : "")" 
+                @onclick="() => SetViewAsync(MailView.Inbox)" disabled="@IsLoading">Posteingang</button>
+                <button class="view-btn @(CurrentView == MailView.Assigned ? "active" : "")" 
+                @onclick="() => SetViewAsync(MailView.Assigned)" disabled="@IsLoading">Meine Mails</button>
+            </div>
+
+            <div class="card email-view active" id="inbox-view" style="position: relative;">
+                <h2>@(CurrentView == MailView.Inbox ? "Posteingang" : "Meine Mails")</h2>
+
+                @if (IsLoading)
+                {
+                    <div class="loading-overlay">
+                        <div class="spinner"></div>
+                        <p>@LoadingMessage</p>
+                    </div>
+                }
+
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger" style="color: red; margin-bottom: 15px;">
+                        <strong>Verbindungsfehler:</strong> @errorMessage
+                    </div>
+                }
+                <div style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Absender</th>
+                                <th>Betreff</th>
+                                <th>Datum</th>
+                                <th>Aktion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (messages == null && !IsLoading)
+                            {
+                                <tr><td colspan="4"><em>Lade E-Mails...</em></td></tr>
+                            }
+                            else if (messages != null && messages.Count == 0 && !IsLoading)
+                            {
+                                <tr><td colspan="4"><em>Keine E-Mails gefunden.</em></td></tr>
+                            }
+                            else if (IsLoading)
+                            {
+                                <tr><td colspan="4"></td></tr>
+                            }
+                            else
+                            {
+                                @foreach (var mail in messages)
+                                {
+                                    <tr>
+                                        <td>@mail.From</td>
+                                        <td>@mail.Subject</td>
+                                        <td>@mail.Date.ToString("dd.MM.yyyy HH:mm")</td>
+                                        <td>
+                                            <button class="details-btn" @onclick="() => NavigateToDetails(mail)">Details</button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <button class="details-btn" @onclick="PreviousPage" disabled="@(CurrentPage == 0 || IsLoading)">Vorherige</button>
+                    <span>Seite @(CurrentPage + 1) von @MaxPage</span>
+                    <button class="details-btn" @onclick="NextPage" disabled="@(CurrentPage >= MaxPage - 1 || IsLoading)">Nächste</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+@code {
+
+    private string? SubjectFilter { get; set; }
+    private string? FromFilter { get; set; }
+    /// <summary>
+    /// Steuert die Anzeige des Lade-Overlays.
+    /// </summary>
+    private bool IsLoading = false;
+    private string LoadingMessage = "E-Mails werden geladen...";
+    /// <summary>
+    /// Definiert die möglichen Ansichten für das E-Mail-Dashboard.
+    /// </summary>
+    public enum MailView { Inbox, Assigned }
+    private MailView CurrentView = MailView.Inbox;
+
+    /// <summary>
+    /// Datenklasse zur Speicherung der relevanten E-Mail-Metadaten für die Anzeige und das Caching.
+    /// </summary>
+    public class SerializableEmail
+    {
+        public int UniqueIndex { get; set; }
+        public string From { get; set; } = "";
+        public string Subject { get; set; } = "";
+        public DateTime Date { get; set; }
+        public uint ImapUid { get; set; }
+    }
+
+    private List<SerializableEmail>? messages;
+    private string? errorMessage;
+
+    // IMAP-Verbindungsparameter
+    private const string ImapUsername = "";
+    private const string ImapPassword = "";
+    private const string ImapHost = "imap.gmail.com";
+    private const int ImapPort = 993;
+    private const string AssignedFolderName = "Assigned";
+
+    // Paginierungsparameter
+    private const int PageSize = 7;
+    private int CurrentPage = 0;
+    private int TotalMails = 0;
+    private int MaxPage => Math.Max(1, (int)Math.Ceiling((double)TotalMails / PageSize));
+
+    // Cache-Management-Variablen
+    private bool jsRuntimeReady = false;
+    private const string LocalStoragePrefixInbox = "cachedEmails_inbox_page";
+    private const string LocalStoragePrefixAssigned = "cachedEmails_assigned_page";
+    private readonly TimeSpan CacheDuration = TimeSpan.FromHours(1);
+
+    //Timer für das automatische Überprüfen auf neue E-Mails
+    private System.Timers.Timer? refreshTimer;
+
+    /// <summary>
+    /// Wird nach dem ersten Rendern ausgeführt. Initialisiert den JS-Code, lädt die erste Seite
+    /// und startet den automatischen Aktualisierungstimer.
+    /// </summary>
+    /// <param name="firstRender">Gibt an, ob es sich um den ersten Render-Durchgang handelt.</param>
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            jsRuntimeReady = true;
+
+            try { await JsRuntime.InvokeVoidAsync("setupDashboardEvents"); } catch { }
+
+            await LoadPageAsync(CurrentPage);
+
+            refreshTimer = new System.Timers.Timer(30 * 1000); // 30 Sekunden
+            refreshTimer.Elapsed += async (s, e) => await CheckForNewMailsAsync();
+            refreshTimer.AutoReset = true;
+            refreshTimer.Start();
+        }
+    }
+
+    /// <summary>
+    /// Wechselt die aktuelle E-Mail-Ansicht, setzt Paginierung und Filter zurück und lädt die neue Ansicht.
+    /// </summary>
+    /// <param name="view">Die zu ladende Ansicht (Inbox oder Assigned).</param>
+    private async Task SetViewAsync(MailView view)
+    {
+        if (CurrentView != view)
+        {
+            CurrentView = view;
+            CurrentPage = 0;
+            SubjectFilter = null;
+            FromFilter = null;
+            await LoadPageAsync(CurrentPage);
+        }
+    }
+
+    /// <summary>
+    /// Wendet die aktuellen Filterwerte an und setzt die Paginierung auf Seite 0 zurück.
+    /// </summary>
+    private async Task ApplyFilter()
+    {
+        SubjectFilter = SubjectFilter?.Trim();
+        FromFilter = FromFilter?.Trim();
+
+        CurrentPage = 0;
+        await LoadPageAsync(CurrentPage);
+    }
+
+    /// <summary>
+    /// Setzt alle Filter zurück und lädt die Ansicht neu.
+    /// </summary>
+    private async Task ResetFilter()
+    {
+        SubjectFilter = null;
+        FromFilter = null;
+        CurrentPage = 0;
+        await LoadPageAsync(CurrentPage);
+    }
+
+    /// <summary>
+    /// Lädt die E-Mails für die angegebene Seite, wendet Filter an und verwendet oder aktualisiert den Browser-Cache.
+    /// </summary>
+    /// <param name="page">Die zu ladende Seitennummer (0-basiert).</param>
+    private async Task LoadPageAsync(int page)
+    {
+        // Setzt den Ladezustand und informiert die UI
+        IsLoading = true;
+        LoadingMessage = "Filter wird angewendet und E-Mails vom Server abgerufen...";
+        StateHasChanged();
+
+        // Erstellt normalisierte Cache-Schlüssel, die Filter und Seite berücksichtigen.
+        string normalizedSubjectFilter = string.IsNullOrEmpty(SubjectFilter) ? "sub_all" : SubjectFilter.ToLowerInvariant().Replace(" ", "_");
+        string normalizedFromFilter = string.IsNullOrEmpty(FromFilter) ? "from_all" : FromFilter.ToLowerInvariant().Replace(" ", "_");
+
+        string folderName = (CurrentView == MailView.Inbox) ? "INBOX" : AssignedFolderName;
+        string storagePrefix = (CurrentView == MailView.Inbox) ? LocalStoragePrefixInbox : LocalStoragePrefixAssigned;
+        string storageKey = $"{storagePrefix}_sub_{normalizedSubjectFilter}_from_{normalizedFromFilter}_page{page}";
+
+
+        // 1. Cache-Prüfung und Verwendung der gecachten Daten bei Gültigkeit
+        if (jsRuntimeReady)
+        {
+            var cachedJson = await JsRuntime.InvokeAsync<string>("localStorage.getItem", storageKey);
+            if (!string.IsNullOrEmpty(cachedJson))
+            {
+                try
+                {
+                    var wrapper = System.Text.Json.JsonSerializer.Deserialize<EmailCacheWrapper>(cachedJson);
+                    if (wrapper != null && wrapper.Expiration > DateTime.UtcNow)
+                    {
+                        messages = wrapper.Messages;
+                        TotalMails = wrapper.TotalMails;
+                        CurrentPage = page;
+
+                        // Ladezustand zurücksetzen und UI aktualisieren
+                        IsLoading = false;
+                        StateHasChanged();
+                        return;
+                    }
+                    await JsRuntime.InvokeVoidAsync("localStorage.removeItem", storageKey);
+                }
+                catch { }
+            }
+        }
+
+        errorMessage = null; 
+
+        // 2. Mails vom Server laden
+        try
+        {
+            using var client = new ImapClient();
+            await client.ConnectAsync(ImapHost, ImapPort, SecureSocketOptions.SslOnConnect);
+            await client.AuthenticateAsync(ImapUsername, ImapPassword);
+
+            var folder = await client.GetFolderAsync(folderName);
+            await folder.OpenAsync(FolderAccess.ReadOnly);
+
+            LoadingMessage = "Metadaten werden verarbeitet...";
+            StateHasChanged();
+
+            // Holt die Metadaten (Envelope/Umschlag) für ALLE Mails zur clientseitigen Filterung.
+            var summaries = await folder.FetchAsync(0, -1, MessageSummaryItems.UniqueId | MessageSummaryItems.Envelope);
+
+            var allMessagesForFiltering = summaries
+                .Select(summary => new SerializableEmail
+                    {
+                        UniqueIndex = (int)summary.UniqueId.Id,
+                        From = summary.Envelope.From.ToString(),
+                        Subject = summary.Envelope.Subject ?? "",
+                        Date = summary.Date.LocalDateTime,
+                        ImapUid = summary.UniqueId.Id
+                    })
+                .OrderByDescending(m => m.Date)
+                .ToList();
+
+            // 3. Clientseitige Filterung und Paginierung
+            var filteredMessages = allMessagesForFiltering.AsEnumerable();
+
+            string? subjectFilterLower = SubjectFilter?.ToLowerInvariant();
+            string? fromFilterLower = FromFilter?.ToLowerInvariant();
+
+            // Filterlogik
+            if (!string.IsNullOrEmpty(subjectFilterLower))
+            {
+                filteredMessages = filteredMessages.Where(m =>
+                    m.Subject.ToLowerInvariant().Contains(subjectFilterLower)
+                );
+            }
+
+            if (!string.IsNullOrEmpty(fromFilterLower))
+            {
+                filteredMessages = filteredMessages.Where(m =>
+                    m.From.ToLowerInvariant().Contains(fromFilterLower)
+                );
+            }
+
+            TotalMails = filteredMessages.Count();
+
+            // Anwendung der Paginierung
+            messages = filteredMessages
+                .Skip(page * PageSize)
+                .Take(PageSize)
+                .ToList();
+
+            CurrentPage = page;
+
+            await client.DisconnectAsync(true);
+
+            // 4. Cache aktualisieren
+            var wrapperCache = new EmailCacheWrapper
+                {
+                    Expiration = DateTime.UtcNow.Add(CacheDuration),
+                    Messages = messages,
+                    TotalMails = TotalMails
+                };
+            var json = System.Text.Json.JsonSerializer.Serialize(wrapperCache);
+            await JsRuntime.InvokeVoidAsync("localStorage.setItem", storageKey, json);
+
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Fehler beim Laden: {ex.Message}";
+            messages = new List<SerializableEmail>(); 
+        }
+        finally
+        {
+            // Setzt den Ladezustand zurück
+            IsLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    /// <summary>
+    /// Überprüft regelmäßig (via Timer), ob sich die Gesamtanzahl der Mails im aktuellen Ordner
+    /// geändert hat und invalidiert gegebenenfalls den Cache, um neue Nachrichten anzuzeigen.
+    /// </summary>
+    private async Task CheckForNewMailsAsync()
+    {
+        // Timer-Ausführung verhindern, wenn der Benutzer gerade aktiv lädt/filtert.
+        if (IsLoading) return;
+
+        try
+        {
+            using var client = new ImapClient();
+            await client.ConnectAsync(ImapHost, ImapPort, SecureSocketOptions.SslOnConnect);
+            await client.AuthenticateAsync(ImapUsername, ImapPassword);
+
+            var folderNames = new[] { "INBOX", AssignedFolderName };
+
+            foreach (var folderName in folderNames)
+            {
+                var folder = await client.GetFolderAsync(folderName);
+                await folder.OpenAsync(FolderAccess.ReadOnly);
+                int count = folder.Count;
+
+                // Prüft nur den Ordner, der aktuell im Dashboard angezeigt wird
+                if ((folderName == "INBOX" && CurrentView == MailView.Inbox) ||
+                    (folderName == AssignedFolderName && CurrentView == MailView.Assigned))
+                {
+                    if (count != TotalMails)
+                    {
+                        // Invalidiert den Cache-Eintrag der aktuellen Seite/Filterkombination.
+                        string storagePrefix = (folderName == "INBOX") ? LocalStoragePrefixInbox : LocalStoragePrefixAssigned;
+                        string normalizedSubjectFilter = string.IsNullOrEmpty(SubjectFilter) ? "sub_all" : SubjectFilter.ToLowerInvariant().Replace(" ", "_");
+                        string normalizedFromFilter = string.IsNullOrEmpty(FromFilter) ? "from_all" : FromFilter.ToLowerInvariant().Replace(" ", "_");
+                        string currentStorageKey = $"{storagePrefix}_sub_{normalizedSubjectFilter}_from_{normalizedFromFilter}_page{CurrentPage}";
+
+                        await JsRuntime.InvokeVoidAsync("localStorage.removeItem", currentStorageKey);
+
+                        await LoadPageAsync(CurrentPage);
+                    }
+                }
+            }
+
+            await client.DisconnectAsync(true);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fehler beim Überprüfen auf neue Mails: {ex.Message}");
+        }
+    }
+
+    /// <summary>
+    /// Navigiert zur nächsten Seite.
+    /// </summary>
+    private void NextPage()
+    {
+        if (CurrentPage < MaxPage - 1)
+        {
+            CurrentPage++;
+            _ = LoadPageAsync(CurrentPage);
+        }
+    }
+
+    /// <summary>
+    /// Navigiert zur vorherigen Seite.
+    /// </summary>
+    private void PreviousPage()
+    {
+        if (CurrentPage > 0)
+        {
+            CurrentPage--;
+            _ = LoadPageAsync(CurrentPage);
+        }
+    }
+
+    /// <summary>
+    /// Navigiert zur Detailseite der ausgewählten E-Mail mithilfe der IMAP Unique ID (Uid).
+    /// </summary>
+    /// <param name="mail">Das SerializableEmail-Objekt der Mail.</param>
+    private void NavigateToDetails(SerializableEmail mail)
+    {
+        string folderName = (CurrentView == MailView.Inbox) ? "INBOX" : AssignedFolderName;
+
+        Navigation.NavigateTo($"/mail-details?uid={mail.ImapUid}&folder={folderName}"); ;
+    }
+
+    /// <summary>
+    /// Wrapper-Klasse, die die Liste der E-Mails und das Ablaufdatum für den lokalen Cache speichert.
+    /// </summary>
+    public class EmailCacheWrapper
+    {
+        public DateTime Expiration { get; set; }
+        public List<SerializableEmail> Messages { get; set; } = new();
+        public int TotalMails { get; set; }
+    }
+
+    /// <summary>
+    /// Unbenutzte Datenstruktur, die entfernt werden könnte.
+    /// </summary>
+    public class EmailSummary
+    {
+        public int UniqueIndex { get; set; }
+        public MimeMessage Message { get; set; } = new();
+        public UniqueId UniqueId { get; set; }
+    }
+}

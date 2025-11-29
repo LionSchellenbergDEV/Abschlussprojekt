@@ -1,0 +1,42 @@
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.deps.json
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.sourcelink.json
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.deps.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.sourcelink.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Backup\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.deps.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.SageRestClient\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.deps.json
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\bin\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.dll
+C:\Users\Administrator\Documents\Abschlussprojekt Lion Schellenberg\Zeiterfassung - Kopie\DTSAG.Common.RestClient\obj\Debug\netstandard2.1\DTSAG.Common.RestClient.pdb

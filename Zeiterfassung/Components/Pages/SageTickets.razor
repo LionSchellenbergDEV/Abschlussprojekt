@@ -1,0 +1,317 @@
+﻿@page "/sagetickets"
+@using Microsoft.AspNetCore.Authorization
+@using System.Net.Http.Json
+@using System.Net.Http.Headers
+@using System.Text.Json
+@using Zeiterfassung.Components.Models 
+@using Zeiterfassung.Models
+@using Zeiterfassung.Repositories
+@inject DTSAG.Common.RestClient.SageRestClient SageClient
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject SageTicketRepository ticketRepo
+@attribute [Authorize]
+
+
+<link href="css/layout.css" rel="stylesheet" />
+<link href="css/components.css" rel="stylesheet" />
+<link href="css/table.css" rel="stylesheet" />
+
+<PageTitle>Sage-Tickets Dashboard</PageTitle>
+<div id="mobile-nav">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx6Ugeth&s" alt="Datatronic Logo">
+    <ul>
+        <li class="active" data-target="email-section">
+            <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+        </li>
+        <li data-target="ticket-section">
+            <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+        </li>
+    </ul>
+    <button>
+        <a href="/abmelden" class="logout-link">
+                🚪 Abmelden
+            </a>
+    </button>
+    </div>
+<div class="dashboard-container">
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198aTj6RHKUOtk8zEMheM6QU-1pdx0Ugeth&s" alt="Datatronic Logo">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li data-target="email-section">
+                    <a href="/" class="nav-link">📧 E-Mail Tickets</a>
+                </li>
+                <li class="active" data-target="ticket-section">
+                    <a href="/sagetickets" class="nav-link">🎫 Sage Tickets</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logout-section">
+            <a href="/abmelden" class="logout-link">
+                🚪 Abmelden
+            </a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="content-header">
+            <h1 id="dashboard-title">Sage Tickets</h1>
+            <form method="get">
+            <div class="search-bar" style="display: flex; gap: 10px;">
+
+                <div class="filter-group">
+                    <label for="betreffFilter">Betreff</label>
+                    <input type="text" id="betreffFilter" name="betreffFilter" 
+                           value="@BetreffFilter" />
+                </div>
+
+                <div class="filter-group">
+                    <label for="ansprechpartnerFilter">Ansprechpartner</label>
+                    <input type="text" id="ansprechpartnerFilter" name="ansprechpartnerFilter" 
+                           value="@AnsprechpartnerFilter" />
+                </div>
+
+                <button type="submit">🔎 Filtern</button>
+                <button type="button" @onclick="ResetFilters" class="btn-secondary">
+                    ❌ Filter zurücksetzen
+                </button>
+            </div>
+        </form>
+
+        </header>
+
+        <section class="dashboard-section active" id="ticket-section">
+            <div class="card">
+                <h2>Offene Sage Tickets</h2>
+
+                @if (sageTickets == null)
+                {
+                    <p><em>Daten werden geladen...</em></p>
+                }
+                else if (sageTickets.Any())
+                {
+                    <div style="overflow-x: auto;">
+
+                                <table class="">
+        <thead>
+            <tr>
+                <th>Erfassungsdatum</th>
+                <th>Mandant</th>
+                <th>Positionstyp</th>
+                <th>Bearbeiter</th>
+                <th>Ausführer</th>
+                <th>Betreff</th>
+                <th>Ansprechpartner</th>
+                <th>Status</th>
+                <th>Aktion</th>
+            </tr>
+        </thead>
+        <tbody>
+                                @foreach (var ticket in sageTickets)
+                                {
+                    <tr id="@($"ticket-{ticket.ProjektID}")"
+                        data-matchcode="@ticket.Ansprechpartner"
+                        data-betreff="@ticket.Betreff"
+                        data-id="@ticket.ProjektPosID"
+                        data-termin="@ticket.Erfassungsdatum.ToShortDateString()"> 
+
+                        <td data-label="Erfassungsdatum">@ticket.Erfassungsdatum.ToString("dd.MM.yyyy")</td>
+                        <td data-label="Mandant">@(ticket.Mandant ?? "/")</td>
+                        <td data-label="Positionstyp">@(ticket.Positionstyp ?? "/")</td>
+                        <td data-label="Bearbeiter">@(ticket.Bearbeiter ?? "/")</td>
+                        <td data-label="Ausführer">@(ticket.Ausfuehrer ?? "/")</td>
+                        <td data-label="Betreff">@(ticket.Betreff ?? "/")</td>
+                        <td data-label="Ansprechpartner">@(ticket.Ansprechpartner ?? "/")</td>
+                        <td data-label="Status">@ticket.Status</td>
+                        <td data-label="Aktion"><a href="/timestamps?ProjektPosID=@ticket.ProjektPosID"><button class="details-btn">Erfasste Zeiten</button></a></td>
+                    </tr>
+                                }
+        </tbody>
+    </table>
+
+                    </div>
+                }
+                else
+                {
+                    <p>Es wurden keine Tickets gefunden.</p>
+                }
+
+            </div>
+        </section>
+
+    </main>
+</div>
+
+
+@code {
+
+    private List<Ticket> tickets = new();
+    private String TicketFilter { get; set; }
+    private List<SageTicket> sageTickets = new();
+    private List<Timestamp> timestamps = new();
+    private bool firstRender = true;
+
+    // Filter-Zustand
+    private string BetreffFilter { get; set; } = string.Empty; 
+    private string AnsprechpartnerFilter { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Setzt alle Filter zurück und navigiert zur Basis-URL, um die Seite neu zu laden.
+    /// </summary>
+    private void ResetFilters()
+    {
+        BetreffFilter = string.Empty;
+        AnsprechpartnerFilter = string.Empty;
+
+        // Navigiert zur unparameterisierten Seite, um die Filterung zu entfernen.
+        NavigationManager.NavigateTo("/sagetickets");
+    }
+
+    /// <summary>
+    /// Datenklasse zur Speicherung der relevanten E-Mail-Metadaten (aus einem anderen Kontext).
+    /// </summary>
+    public class SerializableEmail
+        {
+            public int UniqueIndex { get; set; }
+            public string From { get; set; } = "";
+            public string Subject { get; set; } = "";
+            public DateTime Date { get; set; }
+            public uint ImapUid { get; set; }
+        }
+
+
+
+    // JSON-Konstante: Definiert den Schlüssel im API-Response-Objekt, unter dem das Ticket-Array zu finden ist.
+    private const string JsonTicketArrayKey = "$resources";
+
+    private const string //Link entfernt = "https://WIN-SWE:5493/sdata/ol/apiSageTickets.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptSageZeiterfassung.100000014.DTSAG_Ticketverwaltung";
+
+    private const string ApiUsername = "";
+    private const string ApiPassword = "";
+
+
+    /// <summary>
+    /// Wird beim Initialisieren der Komponente ausgeführt. Ruft Tickets ab, liest Filter aus der URL und wendet sie an.
+    /// </summary>
+    protected override async Task OnInitializedAsync()
+        {
+    try
+    {
+            // Filterwerte aus der URL extrahieren (wird verwendet, wenn die Seite über die Filterform navigiert wurde)
+        var uri = NavigationManager.Uri;
+        var queryParams = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(new Uri(uri).Query);
+
+            // Liest den 'betreffFilter' aus den Query-Parametern
+        var betreffFilterParam = queryParams
+            .FirstOrDefault(kvp => kvp.Key.Equals("betreffFilter", StringComparison.OrdinalIgnoreCase))
+            .Value.FirstOrDefault();
+
+        BetreffFilter = betreffFilterParam ?? string.Empty;
+
+            // Liest den 'ansprechpartnerFilter' aus den Query-Parametern
+        var ansprechpartnerFilterParam = queryParams
+            .FirstOrDefault(kvp => kvp.Key.Equals("ansprechpartnerFilter", StringComparison.OrdinalIgnoreCase))
+            .Value.FirstOrDefault();
+
+        AnsprechpartnerFilter = ansprechpartnerFilterParam ?? string.Empty;
+
+
+        // Lade alle Tickets
+        sageTickets = (await ticketRepo.GetListAsync()).ToList();
+
+        // **Filter anwenden**
+        var gefilterteTickets = sageTickets.AsEnumerable();
+
+            // 1. Filterung nach Betreff (case-insensitiv)
+        if (!string.IsNullOrEmpty(BetreffFilter))
+        {
+            gefilterteTickets = gefilterteTickets.Where(ticket =>
+                (ticket.Betreff != null && ticket.Betreff.Contains(BetreffFilter, StringComparison.OrdinalIgnoreCase)));
+        }
+
+            // 2. Filterung nach Ansprechpartner (case-insensitiv)
+        if (!string.IsNullOrEmpty(AnsprechpartnerFilter))
+        {
+            gefilterteTickets = gefilterteTickets.Where(ticket =>
+                (ticket.Ansprechpartner != null && ticket.Ansprechpartner.Contains(AnsprechpartnerFilter, StringComparison.OrdinalIgnoreCase)));
+        }
+
+        sageTickets = gefilterteTickets.ToList();
+    }
+    catch (HttpRequestException httpEx)
+    {
+        Console.WriteLine($"HTTP-Fehler ({httpEx.StatusCode}): Beim Abrufen der Tickets ist ein Fehler aufgetreten. Überprüfen Sie URL und Auth.");
+        //tickets = new List<Ticket>(); // ticketRepo.GetListAsync() hat sageTickets gefüllt, nicht tickets
+        sageTickets = new List<SageTicket>(); // Korrekte Initialisierung
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Unerwarteter Fehler: {ex.Message}");
+        // tickets = new List<Ticket>();
+        sageTickets = new List<SageTicket>(); // Korrekte Initialisierung
+    }
+        }
+
+    /// <summary>
+    /// Parsen der JSON-Antwort vom API-Server und Extrahieren des Ticket-Arrays.
+    /// </summary>
+    /// <param name="jsonString">Der rohe JSON-String von der API.</param>
+    /// <returns>Eine Liste von Ticket-Objekten oder eine leere Liste im Fehlerfall.</returns>
+    private async Task<List<Ticket>?> ParseTicketResponse(string jsonString)
+    {
+        try
+        {
+            using (JsonDocument document = JsonDocument.Parse(jsonString))
+            {
+                
+                if (document.RootElement.ValueKind == JsonValueKind.Object)
+                {
+                    if (document.RootElement.TryGetProperty(JsonTicketArrayKey, out JsonElement ticketArrayElement) && ticketArrayElement.ValueKind == JsonValueKind.Array)
+                    {
+                        Console.WriteLine($"Tickets erfolgreich unter dem Key '{JsonTicketArrayKey}' gefunden und deserialisiert.");
+                        
+                        return ticketArrayElement.Deserialize<List<Ticket>>();
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Fehler beim Parsen: Das Array unter '{JsonTicketArrayKey}' wurde nicht gefunden oder ist kein gültiges Array. Bitte prüfen Sie die Struktur der vollständigen API-Antwort.");
+                        return new List<Ticket>();
+                    }
+                }
+                else if (document.RootElement.ValueKind == JsonValueKind.Array)
+                {
+                    return document.RootElement.Deserialize<List<Ticket>>();
+                }
+                else
+                {
+                    // Unbekannte JSON-Struktur
+                    throw new Exception("API-Antwort ist weder ein JSON-Objekt noch ein JSON-Array. Unbekannte Struktur.");
+                }
+            }
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Kritischer Deserialisierungsfehler im JSON: {ex.Message}");
+            return new List<Ticket>();
+        }
+    }
+
+    /// <summary>
+    /// Führt clientseitigen JavaScript-Code aus, nachdem die Komponente gerendert wurde.
+    /// </summary>
+    /// <param name="firstRender">Gibt an, ob es sich um den ersten Render-Durchgang handelt.</param>
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender || tickets != null)
+        {
+            await JsRuntime.InvokeVoidAsync("setupDashboardListeners");
+        }
+        this.firstRender = false;
+    }
+}
