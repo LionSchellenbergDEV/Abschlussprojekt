@@ -80,7 +80,7 @@
 
                 <hr style="margin-top: 15px; margin-bottom: 20px;">
 
-                <div class="detail-header-flat"> 
+                <div class="detail-header"> 
                     <p class="detail-subject"><strong>@message.Subject</strong></p> 
                     <p class="detail-meta-item">Von: @message.From</p>
                     <p class="detail-meta-item">Datum: @message.Date.LocalDateTime.ToString("dd.MM.yyyy HH:mm")</p>
@@ -124,12 +124,12 @@
     background-color: #007bff; 
     color: white;
 }
-   .detail-header-flat {
+   .detail-header {
     padding: 0;
     margin: 0;
 }
 
-.detail-header-flat p {
+.detail-header p {
     margin: 3px 0; 
     padding: 0;
     text-align: left; 
@@ -175,8 +175,8 @@
     private string? TextBody;
 
     // IMAP-Verbindungsparameter
-    private const string ImapUsername = "";
-    private const string ImapPassword = "";
+    private const string imapNutzername = "";
+    private const string imapPasswort = "";
     private const string ImapHost = "";
     private const int ImapPort = 993;
     private const string AssignedFolderName = "Assigned";
@@ -218,7 +218,7 @@
         {
             using var client = new ImapClient();
             await client.ConnectAsync(ImapHost, ImapPort, SecureSocketOptions.SslOnConnect);
-            await client.AuthenticateAsync(ImapUsername, ImapPassword);
+            await client.AuthenticateAsync(imapNutzername, imapPasswort);
 
             var folder = await client.GetFolderAsync(targetFolder);
             await folder.OpenAsync(FolderAccess.ReadOnly);
@@ -248,7 +248,7 @@
         {
             using var client = new ImapClient();
             await client.ConnectAsync(ImapHost, ImapPort, SecureSocketOptions.SslOnConnect);
-            await client.AuthenticateAsync(ImapUsername, ImapPassword);
+            await client.AuthenticateAsync(imapNutzername, imapPasswort);
 
             var inbox = await client.GetFolderAsync("INBOX");
             await inbox.OpenAsync(FolderAccess.ReadOnly);
