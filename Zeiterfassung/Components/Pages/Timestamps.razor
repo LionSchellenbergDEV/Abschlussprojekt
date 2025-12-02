@@ -276,7 +276,7 @@
         }
     }
 
-    private const string Post//Link entfernt = "https://WIN-SWE:5493/sdata/ol/apiTest.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptTest2.100000014.DTSAG_Ticketverwaltung";
+    private const string Post//Link entfernt = "https://WIN-SWE:5493/sdata/ol/apiTest.100000014.DTSAG_Ticketverwaltung/OlDemoReweAbfD;123/eptZeiterfassung.100000014.DTSAG_Ticketverwaltung";
 
     /// <summary>
     /// Datenmodell für den POST-Request. Achtung: Die Typisierung muss exakt der API-Erwartung entsprechen.
@@ -284,7 +284,7 @@
     public class PostPayload
     {
         [JsonPropertyName("$type")]
-        public string EntityType { get; set; } = "eptTest2.100000014.DTSAG_Ticketverwaltung";
+        public string EntityType { get; set; } = "eptZeiterfassung.100000014.DTSAG_Ticketverwaltung";
 
         public bool istBerechnet { get; set; } = false;
         public int posID { get; set; }
